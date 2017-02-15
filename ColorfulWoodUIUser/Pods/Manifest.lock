@@ -1,5 +1,5 @@
 PODS:
-  - ColorfulWoodUIBase (1.0.4):
+  - ColorfulWoodUIBase (1.0.5):
     - Masonry
   - Masonry (1.0.2)
 
@@ -8,7 +8,7 @@ DEPENDENCIES:
   - Masonry
 
 SPEC CHECKSUMS:
-  ColorfulWoodUIBase: 47777df11e83d5f11fa0d8ba9a25816d437866ab
+  ColorfulWoodUIBase: 4fe5440ad937c45616d43e0a914aa79dfa57c96b
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
 PODFILE CHECKSUM: 0479f0e5a86232bee1d44710e467ecfdb4c13210

@@ -7,18 +7,45 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CWUBLeftImageFollowField.h>
 
 @interface ColorfulWoodUILogin : UIView
 
 /**
  * 输入手机号码
  */
-@property(nonatomic, strong)CWUBLeftImageFollowField* m_fieldPhone;
+@property(nonatomic, strong)UITextField* m_fieldPhone;
 
 /**
  * 输入密码
  */
-@property(nonatomic, strong)CWUBLeftImageFollowField* m_fieldPwd;
+@property(nonatomic, strong)UITextField* m_fieldPwd;
+
+
+/**
+ * 手机图片
+ */
+@property(nonatomic, strong)UIImageView* m_imgPhone;
+
+/**
+ * 密码图片
+ */
+@property(nonatomic, strong)UIImageView* m_imgPwd;
+
+/**
+ * 登陆按钮
+ */
+@property(nonatomic, strong)UIButton* m_btnlogin;
+
+/**
+ * 忘记密码
+ */
+@property(nonatomic, strong)UIButton* m_btnForgetPwd;
+
+/**
+ * 注册
+ */
+@property(nonatomic, strong)UIButton* m_btnRegister;
+
+
 
 @end

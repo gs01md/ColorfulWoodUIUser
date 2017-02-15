@@ -9,31 +9,17 @@
 #import "ColorfulWoodUILogin.h"
 #import "ColorfulWoodUIBase.h"
 #import "Masonry.h"
+#import "ColorfulWoodUIPhonePwd.h"
 
-#define height_textField 40.
-#define color_line [UIColor grayColor]
+#define height_phonePwd 80.
 
 @interface ColorfulWoodUILogin()
 
 /**
  * 包裹手机号码和密码
  */
-@property(nonatomic, strong)UIView* m_viewPhonePwd;
+@property(nonatomic, strong)ColorfulWoodUIPhonePwd* m_viewPhonePwd;
 
-/**
- * 登陆按钮
- */
-@property(nonatomic, strong)UIButton* m_btnlogin;
-
-/**
- * 忘记密码
- */
-@property(nonatomic, strong)UIButton* m_btnForgetPwd;
-
-/**
- * 注册
- */
-@property(nonatomic, strong)UIButton* m_btnRegister;
 
 
 @end
@@ -58,70 +44,96 @@
     [self addSubview:self.m_viewPhonePwd];
     [_m_viewPhonePwd mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.left.equalTo(self).offset(10);
-        make.right.equalTo(self).offset(-10);
-        make.top.equalTo(self).offset(10);
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(height_textField*2)));
+        make.left.equalTo(self);
+        make.right.equalTo(self);
+        make.top.equalTo(self);
+        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(height_phonePwd)));
+    }];
+
+    
+    
+    [self addSubview:self.m_btnForgetPwd];
+    [_m_btnForgetPwd mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(CWUBDefineHeightButton)));
+        make.left.equalTo(self).offset(CWUBDefineMargin*2);
+        make.top.equalTo(_m_btnlogin.mas_bottom).offset(10);
     }];
     
-    [self addSubview:self.m_fieldPhone];
-    [_m_fieldPhone mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self addSubview:self.m_btnRegister];
+    [_m_btnRegister mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.left.equalTo(_m_viewPhonePwd);
-        make.right.equalTo(_m_viewPhonePwd);
-        make.top.equalTo(_m_viewPhonePwd);
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(height_textField)));
+        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(CWUBDefineHeightButton)));
+        make.right.equalTo(self).offset(-CWUBDefineMargin*2);
+        make.top.equalTo(_m_btnlogin.mas_bottom).offset(10);
     }];
     
-    [self addSubview:self.m_fieldPwd];
-    [_m_fieldPwd mas_makeConstraints:^(MASConstraintMaker *make) {
-        
-        make.left.equalTo(_m_viewPhonePwd);
-        make.right.equalTo(_m_viewPhonePwd);
-        make.top.equalTo(_m_fieldPhone.mas_bottom);
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(height_textField)));
-    }];
 }
 
 #pragma mark - 属性
-- (UIView*)m_viewPhonePwd{
+- (ColorfulWoodUIPhonePwd*)m_viewPhonePwd{
     
     if (!_m_viewPhonePwd) {
         
-        _m_viewPhonePwd = [UIView new];
-        _m_viewPhonePwd.layer.cornerRadius = 5.;
-        _m_viewPhonePwd.layer.borderWidth = 1.;
-        _m_viewPhonePwd.layer.borderColor = color_line.CGColor;
+        _m_viewPhonePwd = [ColorfulWoodUIPhonePwd new];
+        
+        _m_fieldPhone = _m_viewPhonePwd.m_fieldPhone;
+        _m_fieldPwd = _m_viewPhonePwd.m_fieldPwd;
+        _m_imgPhone = _m_viewPhonePwd.m_imgPhone;
+        _m_imgPwd = _m_viewPhonePwd.m_imgPwd;
+        _m_btnlogin = _m_viewPhonePwd.m_btnConfirm;
+        _m_imgPhone = _m_viewPhonePwd.m_imgPhone;
+        [_m_btnlogin setTitle:@"登录" forState:UIControlStateNormal];
     }
     
     return _m_viewPhonePwd;
 }
 
-- (CWUBLeftImageFollowField*)m_fieldPhone{
+- (UIButton*)m_btnForgetPwd{
     
-    if (!_m_fieldPhone) {
+    if (!_m_btnForgetPwd) {
         
-        _m_fieldPhone = [CWUBLeftImageFollowField new];
-        _m_fieldPhone.m_imgBottom.backgroundColor = color_line;
-        _m_fieldPhone.m_txtFieldContent.placeholder = @"手机号";
-        _m_fieldPhone.m_imgLeft.backgroundColor = [UIColor clearColor];
-        _m_fieldPhone.m_imgLeft.layer.borderWidth = 0.;
+        _m_btnForgetPwd = [UIButton new];
+        [_m_btnForgetPwd setTitle:@"忘记密码？" forState:UIControlStateNormal];
+        [_m_btnForgetPwd.titleLabel setFont:[UIFont systemFontOfSize:15]];
+        [_m_btnForgetPwd setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_m_btnForgetPwd setTitleColor:CWUBDefineCreate_Color(233, 71, 9, 1) forState:UIControlStateHighlighted];
+
     }
     
-    return _m_fieldPhone;
+    return _m_btnForgetPwd;
 }
 
-- (CWUBLeftImageFollowField*)m_fieldPwd{
+- (UIButton*)m_btnRegister{
     
-    if (!_m_fieldPwd) {
+    if (!_m_btnRegister) {
         
-        _m_fieldPwd = [CWUBLeftImageFollowField new];
-        _m_fieldPwd.m_txtFieldContent.placeholder = @"密码";
-        _m_fieldPwd.m_imgLeft.backgroundColor = [UIColor clearColor];
-        _m_fieldPwd.m_imgLeft.layer.borderWidth = 0.;
+        _m_btnRegister = [UIButton new];
+        [_m_btnRegister setTitle:@"注册" forState:UIControlStateNormal];
+        [_m_btnRegister.titleLabel setFont:[UIFont systemFontOfSize:15]];
+        [_m_btnRegister setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_m_btnRegister setTitleColor:CWUBDefineCreate_Color(233, 71, 9, 1) forState:UIControlStateHighlighted];
+        
     }
     
-    return _m_fieldPwd;
+    return _m_btnRegister;
+}
+
+#pragma mark - 功能
+//  颜色转换为背景图片
+- (UIImage *)imageWithColor:(UIColor *)color {
+    
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
 }
 
 @end

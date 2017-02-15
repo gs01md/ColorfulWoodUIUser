@@ -1,0 +1,19 @@
+PODS:
+  - BmobSDK (2.1.3)
+  - ColorfulWoodUIBase (1.0.2):
+    - Masonry
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - BmobSDK
+  - ColorfulWoodUIBase
+  - Masonry
+
+SPEC CHECKSUMS:
+  BmobSDK: 395bb328a51397fe008297e19e2defa21be2b329
+  ColorfulWoodUIBase: 82ef62fd431ff0a5282b114d60c299b5688a4a8a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 7dabac504f0801083f3627c3a7facdb896148598
+
+COCOAPODS: 1.1.1
