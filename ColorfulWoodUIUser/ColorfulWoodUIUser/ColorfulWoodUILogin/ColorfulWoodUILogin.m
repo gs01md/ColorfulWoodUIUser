@@ -11,7 +11,7 @@
 #import "Masonry.h"
 #import "ColorfulWoodUIPhonePwd.h"
 
-#define height_phonePwd 80.
+#define height_phonePwd (100.+ CWUBDefineHeightButton)
 
 @interface ColorfulWoodUILogin()
 

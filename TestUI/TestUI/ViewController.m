@@ -10,6 +10,8 @@
 #import <ColorfulWoodUIBase.h>
 #import <ColorfulWoodUIUser/ColorfulWoodUIUser.h>
 #import <BmobSDK/Bmob.h>
+#import "RegisterViewController.h"
+#import <UIViewController+JKBackButtonItemTitle.h>
 
 @interface ViewController (){
     
@@ -37,6 +39,7 @@
     user.m_imgPwd.image = [UIImage imageNamed:@"loginPwd"];
     
     [user.m_btnlogin addTarget:self action:@selector(onLogin) forControlEvents:UIControlEventTouchUpInside];
+    [user.m_btnRegister addTarget:self action:@selector(onRegister) forControlEvents:UIControlEventTouchUpInside];
     
 }
 
@@ -66,6 +69,13 @@
         }
         
     }] ;
+}
+
+- (void)onRegister{
+    
+    RegisterViewController * vc = [RegisterViewController new];
+    
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

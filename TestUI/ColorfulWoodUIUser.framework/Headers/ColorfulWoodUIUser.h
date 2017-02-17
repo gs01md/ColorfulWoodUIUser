@@ -8,13 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for ColorfulWoodUIUser.
 FOUNDATION_EXPORT double ColorfulWoodUIUserVersionNumber;
-
-//! Project version string for ColorfulWoodUIUser.
 FOUNDATION_EXPORT const unsigned char ColorfulWoodUIUserVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <ColorfulWoodUIUser/PublicHeader.h>
+
 
 
 #import "ColorfulWoodUILogin.h"
+#import "ColorfulWoodUIPhonePwd.h"
+#import "ColorfulWoodUISMS.h"

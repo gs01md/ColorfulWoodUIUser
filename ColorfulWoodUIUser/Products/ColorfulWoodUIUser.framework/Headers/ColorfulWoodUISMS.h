@@ -7,7 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CWUBLeftImageFollowField.h"
 
 @interface ColorfulWoodUISMS : UIView
+
+/**
+ * 验证码
+ */
+@property(nonatomic, strong)CWUBLeftImageFollowField* m_viewCode;
+
+/**
+ * 倒计时按钮
+ */
+@property(nonatomic, strong)UIButton* m_btnCode;
+
+/**
+ * 确认按钮
+ */
+@property(nonatomic, strong)UIButton* m_btnConfirm;
 
 @end

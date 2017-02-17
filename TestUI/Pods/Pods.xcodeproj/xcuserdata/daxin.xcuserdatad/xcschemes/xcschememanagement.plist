@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ColorfulWoodCategories.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ColorfulWoodUIBase.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JKCategories.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1C20103AB4ED949597D20D1C1737EEAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B6CC173E54138F651772EA09EC095B4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DDDA668DF61F90555DE6B320815CD7D5</key>
+		<key>BFC104EA05596275561DC3F086C247AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EF48DA56CCE4A46E2FDBFF6528B85BEF</key>
+		<key>D91034CFB9B373EEBEF6FB9AD02871E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DDDA668DF61F90555DE6B320815CD7D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
