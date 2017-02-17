@@ -7,8 +7,8 @@
 //
 
 #import "ColorfulWoodUISMS.h"
-#import <CWUBDefine.h>
-#import <Masonry.h>
+#import "CWUBDefine.h"
+#import "Masonry.h"
 
 #define height_code 35.
 
@@ -57,7 +57,7 @@
         make.top.equalTo(self).offset(CWUBDefineMargin);
         make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(height_code)));
     }];
-
+    
     
     [_m_viewCode addSubview:self.m_btnCode];
     [_m_btnCode mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -90,7 +90,7 @@
         _m_viewCode.m_txtFieldContent.placeholder = @"验证码";
         _m_viewCode.m_imgLeft.backgroundColor = [UIColor clearColor];
         _m_viewCode.m_imgLeft.layer.borderWidth = 0.;
-
+        
     }
     
     return _m_viewCode;
@@ -168,21 +168,21 @@
     [_m_btnCode setTitle:str forState:UIControlStateNormal];
     
 }
-         
+
 #pragma mark - 功能
-         //  颜色转换为背景图片
-         - (UIImage *)imageWithColor:(UIColor *)color {
-             
-             CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
-             UIGraphicsBeginImageContext(rect.size);
-             CGContextRef context = UIGraphicsGetCurrentContext();
-             
-             CGContextSetFillColorWithColor(context, [color CGColor]);
-             CGContextFillRect(context, rect);
-             
-             UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-             UIGraphicsEndImageContext();
-             
-             return image;
-         }
+//  颜色转换为背景图片
+- (UIImage *)imageWithColor:(UIColor *)color {
+    
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
 @end
