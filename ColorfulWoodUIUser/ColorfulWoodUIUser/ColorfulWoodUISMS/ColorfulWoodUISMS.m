@@ -9,6 +9,7 @@
 #import "ColorfulWoodUISMS.h"
 #import "CWUBDefine.h"
 #import "Masonry.h"
+#import "CWUBLeftImageFollowField.h"
 
 #define height_code 35.
 
@@ -19,6 +20,11 @@
  */
 @property int m_iNum;
 @property (nonatomic, strong) NSTimer * m_timer;
+
+/**
+ * 验证码
+ */
+@property(nonatomic, strong)CWUBLeftImageFollowField* m_viewCode;
 
 @end
 
@@ -90,6 +96,8 @@
         _m_viewCode.m_txtFieldContent.placeholder = @"验证码";
         _m_viewCode.m_imgLeft.backgroundColor = [UIColor clearColor];
         _m_viewCode.m_imgLeft.layer.borderWidth = 0.;
+        _m_fieldCode = _m_viewCode.m_txtFieldContent;
+        _m_imgCode = _m_viewCode.m_imgLeft;
         
     }
     
