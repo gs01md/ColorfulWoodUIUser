@@ -8,8 +8,9 @@
 
 #import "RegisterViewController.h"
 #import <ColorfulWoodUIUser/ColorfulWoodUIUser.h>
-#import <ColorfulWoodUIBase.h>
+#import <ColorfulWoodUIBase/ColorfulWoodUIBase.h>
 #import <ColorfulWoodCategories.h>
+#import "RegisterCodeViewController.h"
 
 @interface RegisterViewController ()
 @property (nonatomic, strong) ColorfulWoodUIPhonePwd *m_view;
@@ -33,7 +34,7 @@
         
         CGRect rect = self.view.frame;
         rect.origin.y = 64.;
-        rect.size.height = CWUBDefineDeviceHeight - 64;
+        rect.size.height = CWUBDefineScaleFrom_iPhone6s_Desgin(150);;
         
         _m_view = [[ColorfulWoodUIPhonePwd alloc] initWithFrame:rect];
         _m_view.m_imgPhone.image = [UIImage imageNamed:@"loginPhone"];
@@ -49,13 +50,16 @@
 
 -(void)onRegisterNext{
     
+    RegisterCodeViewController * vc = [RegisterCodeViewController new];
+    
+    [self.navigationController pushViewController:vc animated:YES];
     
 }
 
 
 - (void)backBtn{
     
-    NSLog(@"11111");
+    [self.navigationController popViewControllerAnimated:YES];
     
 }
 @end

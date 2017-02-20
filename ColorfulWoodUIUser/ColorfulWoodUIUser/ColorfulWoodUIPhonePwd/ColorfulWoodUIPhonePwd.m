@@ -10,7 +10,7 @@
 #import "ColorfulWoodUIBase.h"
 #import "Masonry.h"
 
-#define height_phonePwd 80.
+#define heightRate_phonePwd 3.7
 
 @interface ColorfulWoodUIPhonePwd()
 
@@ -61,7 +61,7 @@
         make.left.equalTo(self).offset(CWUBDefineMargin);
         make.right.equalTo(self).offset(-CWUBDefineMargin);
         make.top.equalTo(self).offset(CWUBDefineMargin);
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(height_phonePwd)));
+        make.height.equalTo(self).multipliedBy(2./heightRate_phonePwd);
     }];
     
     [_m_viewPhonePwd addSubview:self.m_viewPhone];
@@ -69,8 +69,8 @@
         
         make.left.equalTo(_m_viewPhonePwd);
         make.right.equalTo(_m_viewPhonePwd);
-        make.centerY.equalTo(_m_viewPhonePwd).offset(-CWUBDefineScaleFrom_iPhone6s_Desgin(height_phonePwd)/4);
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(CWUBDefineHeightTextField)));
+        make.centerY.equalTo(_m_viewPhonePwd).multipliedBy(1./2.);
+        make.height.equalTo(self).multipliedBy(1./heightRate_phonePwd);
     }];
     
     [_m_viewPhonePwd addSubview:self.m_line];
@@ -87,17 +87,17 @@
         
         make.left.equalTo(_m_viewPhonePwd);
         make.right.equalTo(_m_viewPhonePwd);
-        make.centerY.equalTo(_m_viewPhonePwd).offset(CWUBDefineScaleFrom_iPhone6s_Desgin(height_phonePwd)/4);
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(CWUBDefineHeightTextField)));
+        make.centerY.equalTo(_m_viewPhonePwd).multipliedBy(6./4.);
+        make.height.equalTo(self).multipliedBy(1./heightRate_phonePwd);
     }];
     
     [self addSubview:self.m_btnConfirm];
     [_m_btnConfirm mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(CWUBDefineHeightButton)));
+        make.height.equalTo(self).multipliedBy(1./heightRate_phonePwd);
         make.left.equalTo(self).offset(CWUBDefineMargin);
         make.right.equalTo(self).offset(-CWUBDefineMargin);
-        make.top.equalTo(_m_viewPhonePwd.mas_bottom).offset(20);
+        make.bottom.equalTo(self);
     }];
     
 

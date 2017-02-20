@@ -11,8 +11,6 @@
 #import "Masonry.h"
 #import "CWUBLeftImageFollowField.h"
 
-#define height_code 35.
-
 @interface ColorfulWoodUISMS ()
 
 /**
@@ -60,8 +58,8 @@
         
         make.left.equalTo(self).offset(CWUBDefineMargin);
         make.right.equalTo(self).offset(-CWUBDefineMargin);
-        make.top.equalTo(self).offset(CWUBDefineMargin);
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(height_code)));
+        make.height.equalTo(self).multipliedBy(1./2.5);
+        make.top.equalTo(self).offset(CWUBDefine_topMargin);
     }];
     
     
@@ -69,18 +67,18 @@
     [_m_btnCode mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.right.equalTo(_m_viewCode.mas_right);
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(30)));
+        make.top.equalTo(_m_viewCode).offset(2);
+        make.bottom.equalTo(_m_viewCode).offset(-2);
         make.width.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(70)));
-        make.centerY.equalTo(_m_viewCode);
     }];
     
     [self addSubview:self.m_btnConfirm];
     [_m_btnConfirm mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(CWUBDefineHeightButton)));
+        make.height.equalTo(self).multipliedBy(1./2.5);
         make.left.equalTo(self).offset(CWUBDefineMargin);
         make.right.equalTo(self).offset(-CWUBDefineMargin);
-        make.top.equalTo(_m_viewCode.mas_bottom).offset(20);
+        make.bottom.equalTo(self);
     }];
     
     
@@ -93,6 +91,9 @@
     if (!_m_viewCode) {
         
         _m_viewCode = [CWUBLeftImageFollowField new];
+        _m_viewCode.layer.cornerRadius = 5.;
+        _m_viewCode.layer.borderWidth = 0.5;
+        _m_viewCode.layer.borderColor = CWUBDefineColorLine.CGColor;
         _m_viewCode.m_txtFieldContent.placeholder = @"验证码";
         _m_viewCode.m_imgLeft.backgroundColor = [UIColor clearColor];
         _m_viewCode.m_imgLeft.layer.borderWidth = 0.;

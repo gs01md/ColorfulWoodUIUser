@@ -14,7 +14,7 @@
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
     {
         UIBarButtonItem *negativeSeperator = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
-        negativeSeperator.width = -10;//此处修改到边界的距离，请自行测试
+        negativeSeperator.width = -20;//此处修改到边界的距离，请自行测试
         
         if (_leftBarButtonItem)
         {

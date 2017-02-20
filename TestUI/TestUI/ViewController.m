@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <ColorfulWoodUIBase.h>
+#import <ColorfulWoodUIBase/ColorfulWoodUIBase.h>
 #import <ColorfulWoodUIUser/ColorfulWoodUIUser.h>
 #import <BmobSDK/Bmob.h>
 #import "RegisterViewController.h"
@@ -27,7 +27,7 @@
 
     CGRect rect = self.view.frame;
     rect.origin.y = 64.;
-    rect.size.height = CWUBDefineDeviceHeight - 64;
+    rect.size.height = CWUBDefineScaleFrom_iPhone6s_Desgin(200);;
     
     user = [[ColorfulWoodUILogin alloc] initWithFrame:rect];
 

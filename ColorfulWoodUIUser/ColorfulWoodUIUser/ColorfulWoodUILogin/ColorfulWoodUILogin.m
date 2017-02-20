@@ -11,7 +11,7 @@
 #import "Masonry.h"
 #import "ColorfulWoodUIPhonePwd.h"
 
-#define height_phonePwd (100.+ CWUBDefineHeightButton)
+#define heightRateLogin 4.5
 
 @interface ColorfulWoodUILogin()
 
@@ -47,7 +47,7 @@
         make.left.equalTo(self);
         make.right.equalTo(self);
         make.top.equalTo(self);
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(height_phonePwd)));
+        make.height.equalTo(self).multipliedBy(3.5/heightRateLogin);
     }];
 
     
@@ -55,17 +55,17 @@
     [self addSubview:self.m_btnForgetPwd];
     [_m_btnForgetPwd mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(CWUBDefineHeightButton)));
         make.left.equalTo(self).offset(CWUBDefineMargin*2);
         make.top.equalTo(_m_btnlogin.mas_bottom).offset(10);
+        make.bottom.equalTo(self);
     }];
     
     [self addSubview:self.m_btnRegister];
     [_m_btnRegister mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.height.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(CWUBDefineHeightButton)));
         make.right.equalTo(self).offset(-CWUBDefineMargin*2);
         make.top.equalTo(_m_btnlogin.mas_bottom).offset(10);
+        make.bottom.equalTo(self);
     }];
     
 }
