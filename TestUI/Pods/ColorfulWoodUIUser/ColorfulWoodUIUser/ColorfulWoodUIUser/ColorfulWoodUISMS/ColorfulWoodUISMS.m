@@ -58,8 +58,9 @@
         
         make.left.equalTo(self).offset(CWUBDefineMargin);
         make.right.equalTo(self).offset(-CWUBDefineMargin);
+        make.top.equalTo(self).offset(CWUBDefineMargin);
         make.height.equalTo(self).multipliedBy(1./2.5);
-        make.top.equalTo(self).offset(CWUBDefine_topMargin);
+        
     }];
     
     
@@ -69,7 +70,7 @@
         make.right.equalTo(_m_viewCode.mas_right);
         make.top.equalTo(_m_viewCode).offset(2);
         make.bottom.equalTo(_m_viewCode).offset(-2);
-        make.width.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(70)));
+        make.width.equalTo(@(CWUBDefineScaleFrom_iPhone6s_Desgin(90)));
     }];
     
     [self addSubview:self.m_btnConfirm];

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B05BB5F1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B05BB5E1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework */; };
 		8B2A0B3C1E3C17AB00603D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B3B1E3C17AB00603D55 /* main.m */; };
 		8B2A0B3F1E3C17AB00603D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B3E1E3C17AB00603D55 /* AppDelegate.m */; };
 		8B2A0B421E3C17AB00603D55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B411E3C17AB00603D55 /* ViewController.m */; };
@@ -55,7 +54,6 @@
 
 /* Begin PBXFileReference section */
 		03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B05BB5E1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ColorfulWoodUIUser.framework; sourceTree = "<group>"; };
 		8B2A0B371E3C17AB00603D55 /* TestUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A0B3B1E3C17AB00603D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B2A0B3D1E3C17AB00603D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 			files = (
 				8B378A621E5451170079F414 /* MapKit.framework in Frameworks */,
 				CE8E8D92182A292C2F432E2E /* libPods-TestUI.a in Frameworks */,
-				8B05BB5F1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +182,6 @@
 		8B2A0BCD1E43EDAD00603D55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B05BB5E1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework */,
 				8B378A611E5451170079F414 /* MapKit.framework */,
 				8B2A0BCE1E43EDAD00603D55 /* Accelerate.framework */,
 				03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */,
