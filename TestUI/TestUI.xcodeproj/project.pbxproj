@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B05BB5F1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B05BB5E1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework */; };
 		8B2A0B3C1E3C17AB00603D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B3B1E3C17AB00603D55 /* main.m */; };
 		8B2A0B3F1E3C17AB00603D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B3E1E3C17AB00603D55 /* AppDelegate.m */; };
 		8B2A0B421E3C17AB00603D55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B411E3C17AB00603D55 /* ViewController.m */; };
@@ -17,14 +18,8 @@
 		8B2A0B581E3C17AB00603D55 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B571E3C17AB00603D55 /* TestUITests.m */; };
 		8B2A0B631E3C17AB00603D55 /* TestUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B621E3C17AB00603D55 /* TestUIUITests.m */; };
 		8B378A621E5451170079F414 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B378A611E5451170079F414 /* MapKit.framework */; };
-		8B378A641E5463180079F414 /* ColorfulWoodUIUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B378A631E5463180079F414 /* ColorfulWoodUIUser.framework */; };
-		8B378A651E5463210079F414 /* ColorfulWoodUIUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B378A631E5463180079F414 /* ColorfulWoodUIUser.framework */; };
-		8B378A661E5463210079F414 /* ColorfulWoodUIUser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B378A631E5463180079F414 /* ColorfulWoodUIUser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B4976861E55B4F900628925 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4976851E55B4F900628925 /* RegisterViewController.m */; };
 		8B49FA5C1E56EAA700916D11 /* RegisterCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49FA5B1E56EAA700916D11 /* RegisterCodeViewController.m */; };
-		8B75DEE11E5ACF0800A87EB8 /* ColorfulWoodUIBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B75DEE01E5ACF0800A87EB8 /* ColorfulWoodUIBase.framework */; };
-		8B75DEE21E5ACFD000A87EB8 /* ColorfulWoodUIBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B75DEE01E5ACF0800A87EB8 /* ColorfulWoodUIBase.framework */; };
-		8B75DEE31E5ACFD000A87EB8 /* ColorfulWoodUIBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B75DEE01E5ACF0800A87EB8 /* ColorfulWoodUIBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE8E8D92182A292C2F432E2E /* libPods-TestUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +47,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8B75DEE31E5ACFD000A87EB8 /* ColorfulWoodUIBase.framework in Embed Frameworks */,
-				8B378A661E5463210079F414 /* ColorfulWoodUIUser.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B05BB5E1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ColorfulWoodUIUser.framework; sourceTree = "<group>"; };
 		8B2A0B371E3C17AB00603D55 /* TestUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A0B3B1E3C17AB00603D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B2A0B3D1E3C17AB00603D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,13 +75,11 @@
 		8B2A0B641E3C17AB00603D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B2A0BCE1E43EDAD00603D55 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		8B378A611E5451170079F414 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		8B378A631E5463180079F414 /* ColorfulWoodUIUser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ColorfulWoodUIUser.framework; sourceTree = "<group>"; };
 		8B3A65691E49C760003694A8 /* TestUI.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUI.pch; sourceTree = "<group>"; };
 		8B4976841E55B4F900628925 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		8B4976851E55B4F900628925 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		8B49FA5A1E56EAA700916D11 /* RegisterCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterCodeViewController.h; sourceTree = "<group>"; };
 		8B49FA5B1E56EAA700916D11 /* RegisterCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterCodeViewController.m; sourceTree = "<group>"; };
-		8B75DEE01E5ACF0800A87EB8 /* ColorfulWoodUIBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ColorfulWoodUIBase.framework; sourceTree = "<group>"; };
 		B485B75A70CF5ABE10948B63 /* Pods-TestUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestUI/Pods-TestUI.release.xcconfig"; sourceTree = "<group>"; };
 		E24D33A24C5445A7EAF11A12 /* Pods-TestUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestUI/Pods-TestUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,12 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B75DEE11E5ACF0800A87EB8 /* ColorfulWoodUIBase.framework in Frameworks */,
-				8B378A651E5463210079F414 /* ColorfulWoodUIUser.framework in Frameworks */,
 				8B378A621E5451170079F414 /* MapKit.framework in Frameworks */,
 				CE8E8D92182A292C2F432E2E /* libPods-TestUI.a in Frameworks */,
-				8B75DEE21E5ACFD000A87EB8 /* ColorfulWoodUIBase.framework in Frameworks */,
-				8B378A641E5463180079F414 /* ColorfulWoodUIUser.framework in Frameworks */,
+				8B05BB5F1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +185,7 @@
 		8B2A0BCD1E43EDAD00603D55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B75DEE01E5ACF0800A87EB8 /* ColorfulWoodUIBase.framework */,
-				8B378A631E5463180079F414 /* ColorfulWoodUIUser.framework */,
+				8B05BB5E1E5AFAD200F05EE2 /* ColorfulWoodUIUser.framework */,
 				8B378A611E5451170079F414 /* MapKit.framework */,
 				8B2A0BCE1E43EDAD00603D55 /* Accelerate.framework */,
 				03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */,

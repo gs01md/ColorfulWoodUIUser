@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ColorfulWoodUIBase.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ColorfulWoodUIUser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JKCategories.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +37,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0663D957F94DE5A3D4447BAB57A604FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1C20103AB4ED949597D20D1C1737EEAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>37772467F251FFD560099963B4BA8682</key>
+		<key>3E2419C4352088767A6B5DD92545100F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
+		<key>B6CC173E54138F651772EA09EC095B4C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>BFC104EA05596275561DC3F086C247AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D91034CFB9B373EEBEF6FB9AD02871E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DDDA668DF61F90555DE6B320815CD7D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

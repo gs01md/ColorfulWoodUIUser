@@ -30,14 +30,14 @@
     if (!_m_view) {
         
         CGRect rect = self.view.frame;
-        rect.origin.y = 64.;
+        rect.origin.y = 164.;
         rect.size.height = CWUBDefineScaleFrom_iPhone6s_Desgin(100);
         
         _m_view = [[ColorfulWoodUISMS alloc] initWithFrame:rect];
         _m_view.m_imgCode.image = [UIImage imageNamed:@"loginPwd"];
         [_m_view.m_btnConfirm setTitle:@"下一步" forState:UIControlStateNormal];
         [_m_view.m_btnConfirm addTarget:self action:@selector(onRegisterNext) forControlEvents:UIControlEventTouchUpInside];
-        
+        _m_view.backgroundColor = [UIColor redColor];
     }
     
     return _m_view;

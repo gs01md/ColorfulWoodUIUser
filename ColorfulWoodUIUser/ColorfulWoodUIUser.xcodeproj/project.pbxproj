@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1AB1225A6DBB48D7FCEBF978 /* libPods-ColorfulWoodUIUser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF015213F2A270DB4770CA03 /* libPods-ColorfulWoodUIUser.a */; };
+		6EAAA8C00D807852E2467E8D /* libPods-ColorfulWoodUIUser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639425EDB0885A7403D6F412 /* libPods-ColorfulWoodUIUser.a */; };
 		8B2A0B941E3CA15800603D55 /* ColorfulWoodUIUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2A0B921E3CA15800603D55 /* ColorfulWoodUIUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B378A511E5428C70079F414 /* ColorfulWoodUIRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B378A4F1E5428C70079F414 /* ColorfulWoodUIRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B378A521E5428C70079F414 /* ColorfulWoodUIRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B378A501E5428C70079F414 /* ColorfulWoodUIRegister.m */; };
@@ -36,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		639425EDB0885A7403D6F412 /* libPods-ColorfulWoodUIUser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorfulWoodUIUser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A0B8F1E3CA15800603D55 /* ColorfulWoodUIUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorfulWoodUIUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A0B921E3CA15800603D55 /* ColorfulWoodUIUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodUIUser.h; sourceTree = "<group>"; };
 		8B2A0B931E3CA15800603D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		8B65E3E81E51418F00F6686D /* ColorfulWoodUILogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodUILogin.m; sourceTree = "<group>"; };
 		A877D090819A6DBCB3C7D8EC /* Pods-ColorfulWoodUIUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulWoodUIUser.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulWoodUIUser/Pods-ColorfulWoodUIUser.release.xcconfig"; sourceTree = "<group>"; };
 		C8B54FCA6B56D318A2D618CA /* Pods-ColorfulWoodUIUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulWoodUIUser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulWoodUIUser/Pods-ColorfulWoodUIUser.debug.xcconfig"; sourceTree = "<group>"; };
-		DF015213F2A270DB4770CA03 /* libPods-ColorfulWoodUIUser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorfulWoodUIUser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AB1225A6DBB48D7FCEBF978 /* libPods-ColorfulWoodUIUser.a in Frameworks */,
+				6EAAA8C00D807852E2467E8D /* libPods-ColorfulWoodUIUser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 		2C2E55F0D66A51E336CDF9C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DF015213F2A270DB4770CA03 /* libPods-ColorfulWoodUIUser.a */,
+				639425EDB0885A7403D6F412 /* libPods-ColorfulWoodUIUser.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
