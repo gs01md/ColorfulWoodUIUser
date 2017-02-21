@@ -11,6 +11,7 @@
 #import <ColorfulWoodUIBase/ColorfulWoodUIBase.h>
 #import <ColorfulWoodCategories.h>
 #import "RegisterCodeViewController.h"
+#import <ColorfulWoodAlert.h>
 
 @interface RegisterViewController ()
 @property (nonatomic, strong) ColorfulWoodUIPhonePwd *m_view;
@@ -23,9 +24,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"注册";
+    
     self.view.backgroundColor = [UIColor whiteColor];
     [self leftWithButtonImage:[UIImage imageNamed:@"btn_back"] action:@selector(backBtn)];
     [self.view addSubview:self.m_view];
+    
 }
 
 -(ColorfulWoodUIPhonePwd*)m_view{
@@ -34,7 +38,7 @@
         
         CGRect rect = self.view.frame;
         rect.origin.y = 64.;
-        rect.size.height = CWUBDefineScaleFrom_iPhone6s_Desgin(150);;
+        rect.size.height = 160;
         
         _m_view = [[ColorfulWoodUIPhonePwd alloc] initWithFrame:rect];
         _m_view.m_imgPhone.image = [UIImage imageNamed:@"loginPhone"];
@@ -50,12 +54,29 @@
 
 -(void)onRegisterNext{
     
-    if () {
+    if (![NSString checkForMobilePhoneNo:_m_view.m_fieldPhone.text] ) {
         
+        [ColorfulWoodAlert showAlertAutoHideWithTitle:@"请输入正确的手机号" afterDelay:2];
+        
+        return;
     }
-    RegisterCodeViewController * vc = [RegisterCodeViewController new];
     
+    if (![NSString checkForPasswordWithShortest:6 longest:18 password:_m_view.m_fieldPwd.text]) {
+        
+        [ColorfulWoodAlert showAlertAutoHideWithTitle:@"密码需要6~18位" afterDelay:2];
+        
+        return;
+    }
+    
+
+        
+    RegisterCodeViewController * vc = [RegisterCodeViewController new];
+    vc.m_phone = _m_view.m_fieldPhone.text;
+    vc.m_pwd = _m_view.m_fieldPwd.text;
+        
     [self.navigationController pushViewController:vc animated:YES];
+
+
     
 }
 

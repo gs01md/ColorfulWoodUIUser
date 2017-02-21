@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import <BmobSDK/Bmob.h>
+#import <IQKeyboardManager.h>
 
 @interface AppDelegate ()
 
@@ -18,6 +19,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //关于键盘，点击屏幕空白处自动回收
+    [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside:YES];
+    //关闭键盘的自定义toolbar
+    [[IQKeyboardManager sharedManager] setEnableAutoToolbar:NO];
     
     [Bmob registerWithAppKey:@"35732650fffd6433a338ac2aa2156191"];
     

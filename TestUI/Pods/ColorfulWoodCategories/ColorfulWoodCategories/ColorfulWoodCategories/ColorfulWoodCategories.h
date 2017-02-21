@@ -14,4 +14,5 @@ FOUNDATION_EXPORT const unsigned char ColorfulWoodCategoriesVersionString[];
 #import "UIViewController+ColorfulWoodAddtional.h"
 #import "UIImage+ColorfulWoodAddtional.h"
 #import "UINavigationItem+ColorfulWoodMargin.h"
+#import "NSString+ColorfulWoodRegex.h"
 

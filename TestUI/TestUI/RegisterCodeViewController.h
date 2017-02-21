@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RegisterCodeViewController : UIViewController
-
+@property(nonatomic,strong) NSString * m_phone;
+@property(nonatomic,strong) NSString * m_pwd;
 @end

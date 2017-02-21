@@ -10,4 +10,7 @@ pod 'JKCategories'
 pod 'ColorfulWoodCategories'
 pod 'ColorfulWoodUIBase'
 pod 'ColorfulWoodUIUser'
+pod 'ColorfulWoodTools'
+pod 'IQKeyboardManager', '~> 3.3.4'
+
 end

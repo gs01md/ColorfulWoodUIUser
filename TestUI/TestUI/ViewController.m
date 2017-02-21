@@ -24,10 +24,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"登录";
 
     CGRect rect = self.view.frame;
     rect.origin.y = 64.;
-    rect.size.height = CWUBDefineScaleFrom_iPhone6s_Desgin(195);
+    rect.size.height = 195;
     
     user = [[ColorfulWoodUILogin alloc] initWithFrame:rect];
 

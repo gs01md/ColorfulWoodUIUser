@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ColorfulWoodTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ColorfulWoodUIBase.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,7 +24,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JKCategories.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,17 +52,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0663D957F94DE5A3D4447BAB57A604FF</key>
+		<key>0659B71386995AC7EE2A305F0A360EB1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1C20103AB4ED949597D20D1C1737EEAB</key>
+		<key>0EB7725518D255A932BC0DF4DB6855B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14C71D3E0ABAD3CC8AB5BFDB807B2FB1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>3E2419C4352088767A6B5DD92545100F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84869A3F75B14DB7432CF0E7D8A14AF0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -58,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>BFC104EA05596275561DC3F086C247AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DAD0DD381EE0648C0E9CB5051569208A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
