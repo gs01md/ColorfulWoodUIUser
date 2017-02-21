@@ -1,6 +1,6 @@
 PODS:
   - BmobSDK (2.1.5)
-  - ColorfulWoodCategories (1.0.3)
+  - ColorfulWoodCategories (1.0.4)
   - ColorfulWoodUIBase (1.0.9):
     - Masonry
   - ColorfulWoodUIUser (1.0.8):
@@ -19,7 +19,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   BmobSDK: 9b4ae6d8de903affaee9703cf082f7f6b03ceba4
-  ColorfulWoodCategories: d2cc0ae8c7f5f782fa09f7c56961b1a42801a834
+  ColorfulWoodCategories: 2db218679d06742d8548b8afb17d6625b47e4532
   ColorfulWoodUIBase: e0e9baadcb4a172a51fe60a5af9e6600d7362419
   ColorfulWoodUIUser: 3293ab4f96a6b69ee16937862506e55916a692c1
   JKCategories: 863f4c7ed2d521ee6bf72ceea97948da23bb5af4
