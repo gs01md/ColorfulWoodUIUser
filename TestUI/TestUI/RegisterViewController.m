@@ -50,6 +50,9 @@
 
 -(void)onRegisterNext{
     
+    if () {
+        
+    }
     RegisterCodeViewController * vc = [RegisterCodeViewController new];
     
     [self.navigationController pushViewController:vc animated:YES];
