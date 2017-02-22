@@ -32,4 +32,6 @@
  */
 @property(nonatomic, strong)UIButton* m_btnConfirm;
 
+- (void)onGetCodeBtn;
+
 @end

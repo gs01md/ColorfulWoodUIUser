@@ -41,7 +41,7 @@
         _m_view.m_imgCode.image = [UIImage imageNamed:@"loginPwd"];
         [_m_view.m_btnConfirm setTitle:@"注册" forState:UIControlStateNormal];
         [_m_view.m_btnConfirm addTarget:self action:@selector(onRegisterNext) forControlEvents:UIControlEventTouchUpInside];
-        [_m_view.m_btnConfirm addTarget:self action:@selector(onRegisterNext) forControlEvents:UIControlEventTouchUpInside];
+        [_m_view onGetCodeBtn];
     }
     
     return _m_view;
@@ -70,7 +70,7 @@
             
         } else {
             
-            [ColorfulWoodAlert showAlertAutoHideWithTitle:error afterDelay:2.];
+            [ColorfulWoodAlert showAlertAutoHideWithTitle:error.localizedDescription afterDelay:2.];
         }
     }];
     
