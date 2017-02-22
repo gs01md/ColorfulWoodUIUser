@@ -32,6 +32,9 @@
  */
 @property(nonatomic, strong)UIButton* m_btnConfirm;
 
+/**
+ * 获取验证码的界面倒计时
+ */
 - (void)onGetCodeBtn;
 
 @end

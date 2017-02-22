@@ -5,7 +5,7 @@ PODS:
     - MBProgressHUD (~> 0.9.1)
   - ColorfulWoodUIBase (1.0.9):
     - Masonry
-  - ColorfulWoodUIUser (1.0.9):
+  - ColorfulWoodUIUser (1.0.10):
     - ColorfulWoodUIBase
     - Masonry
   - IQKeyboardManager (3.3.7)
@@ -28,7 +28,7 @@ SPEC CHECKSUMS:
   ColorfulWoodCategories: 9d6bb4b17a869b3136a73fc87e9abc9e827376b6
   ColorfulWoodTools: 71888e36f1caf1c3254cb4fa9c85f30dabd8424e
   ColorfulWoodUIBase: e0e9baadcb4a172a51fe60a5af9e6600d7362419
-  ColorfulWoodUIUser: 27870e47933e028eb866f79dce3c582bfb945a16
+  ColorfulWoodUIUser: ca4c18d33a1f07eb460e727497b47ead8f66cb98
   IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
   JKCategories: 863f4c7ed2d521ee6bf72ceea97948da23bb5af4
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
