@@ -1,7 +1,7 @@
 //
 //  ColorfulWoodAlert.h
 //  ColorfulWoodTools
-//
+//  提示弹窗
 //  Created by 大新 on 2017/2/21.
 //  Copyright © 2017年 ColorfulWood. All rights reserved.
 //

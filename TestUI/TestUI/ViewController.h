@@ -2,7 +2,7 @@
 //  ViewController.h
 //  TestUI
 //
-//  Created by 大新 on 2017/1/28.
+//  Created by 大新 on 2017/2/22.
 //  Copyright © 2017年 ColorWood. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

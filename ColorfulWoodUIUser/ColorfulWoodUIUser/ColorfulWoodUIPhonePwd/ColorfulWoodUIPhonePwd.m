@@ -142,6 +142,7 @@
         _m_viewPwd.m_txtFieldContent.placeholder = @"密码";
         _m_viewPwd.m_imgLeft.backgroundColor = [UIColor clearColor];
         _m_viewPwd.m_imgLeft.layer.borderWidth = 0.;
+        [_m_viewPwd.m_txtFieldContent setSecureTextEntry:YES];
         _m_fieldPwd = _m_viewPwd.m_txtFieldContent;
         _m_imgPwd = _m_viewPwd.m_imgLeft;
     }

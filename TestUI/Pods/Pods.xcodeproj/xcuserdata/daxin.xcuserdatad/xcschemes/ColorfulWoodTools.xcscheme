@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '14C71D3E0ABAD3CC8AB5BFDB807B2FB1'
+               BlueprintIdentifier = '3B4341822F16F71193FEB31FA220B31D'
                BlueprintName = 'ColorfulWoodTools'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libColorfulWoodTools.a'>

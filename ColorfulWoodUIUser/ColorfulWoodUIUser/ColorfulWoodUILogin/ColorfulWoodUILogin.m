@@ -94,7 +94,7 @@
     if (!_m_btnForgetPwd) {
         
         _m_btnForgetPwd = [UIButton new];
-        [_m_btnForgetPwd setTitle:@"忘记密码？" forState:UIControlStateNormal];
+        [_m_btnForgetPwd setTitle:@"验证码登录" forState:UIControlStateNormal];
         [_m_btnForgetPwd.titleLabel setFont:[UIFont systemFontOfSize:15]];
         [_m_btnForgetPwd setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_m_btnForgetPwd setTitleColor:CWUBDefineCreate_Color(233, 71, 9, 1) forState:UIControlStateHighlighted];

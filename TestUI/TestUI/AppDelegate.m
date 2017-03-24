@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "CWUULoginViewController.h"
 #import <BmobSDK/Bmob.h>
 #import <IQKeyboardManager.h>
+#import "CWUUMineViewController.h"
 
 @interface AppDelegate ()
 
@@ -27,9 +28,10 @@
     
     [Bmob registerWithAppKey:@"35732650fffd6433a338ac2aa2156191"];
     
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    ViewController * _rootViewController = [[ViewController alloc] init];
+    CWUUMineViewController *_rootViewController = [[CWUUMineViewController alloc] init];
     
     UINavigationController *rootNaviController = [[UINavigationController alloc] initWithRootViewController:_rootViewController];
     

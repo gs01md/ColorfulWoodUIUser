@@ -2,20 +2,20 @@
 //  ViewController.m
 //  TestUI
 //
-//  Created by 大新 on 2017/1/28.
+//  Created by 大新 on 2017/2/22.
 //  Copyright © 2017年 ColorWood. All rights reserved.
 //
 
 #import "ViewController.h"
-#import <ColorfulWoodUIBase/ColorfulWoodUIBase.h>
-#import <ColorfulWoodUIUser/ColorfulWoodUIUser.h>
-#import <BmobSDK/Bmob.h>
-#import "RegisterViewController.h"
-#import <UIViewController+JKBackButtonItemTitle.h>
 
-@interface ViewController (){
+#import "CWUULoginViewController.h"
+
+
+@interface ViewController ()<
+CWUULoginViewControllerDelegate
+>{
     
-    ColorfulWoodUILogin * user;
+    CWUULoginViewController * _rootViewController;
 }
 
 @end
@@ -25,59 +25,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"登录";
+    float fLeft   = 100;
+    float fTop    = 100;
+    float fWidth  = 100;
+    float fHeight = 50;
+    CGRect rect = CGRectMake(fLeft, fTop, fWidth, fHeight);
+    UIButton * btn = [[UIButton alloc] initWithFrame:rect];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(onLogin) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+    
 
-    CGRect rect = self.view.frame;
-    rect.origin.y = 64.;
-    rect.size.height = 195;
-    
-    user = [[ColorfulWoodUILogin alloc] initWithFrame:rect];
+}
 
-    [self.view addSubview:user];
+- (void) onLogin{
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    _rootViewController = [[CWUULoginViewController alloc] init];
+    _rootViewController.delegate = self;
     
-    user.m_imgPhone.image = [UIImage imageNamed:@"loginPhone"];
-    user.m_imgPwd.image = [UIImage imageNamed:@"loginPwd"];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:_rootViewController];
     
-    [user.m_btnlogin addTarget:self action:@selector(onLogin) forControlEvents:UIControlEventTouchUpInside];
-    [user.m_btnRegister addTarget:self action:@selector(onRegister) forControlEvents:UIControlEventTouchUpInside];
-    
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 
-/**
- * 视图点击事件
- */
-- (void)CWUBViewBaseDelegate_viewClick{
+- (void)CWUULoginViewControllerDelegate_success{
     
-    NSLog(@"CWUBViewBaseDelegate_viewClick");
-}
-
-
-#pragma mark - 事件
-- (void)onLogin{
+    [self dismissViewControllerAnimated:YES completion:nil];
     
-    NSDictionary  *dic = [NSDictionary  dictionaryWithObjectsAndKeys:@"15910667631",@"phone", @"123456",@"password",nil];
-
-    [BmobCloud callFunctionInBackground:@"registerRongCloudForChaoticEnglish" withParameters:dic block:^(id object, NSError *error) {
-        
-        if (!error) {
-            //执行成功时调用
-            NSLog(@"error %@",[object description]);
-        }else{
-            //执行失败时调用
-            NSLog(@"error %@",[error description]);
-        }
-        
-    }] ;
-}
-
-- (void)onRegister{
-    
-    RegisterViewController * vc = [RegisterViewController new];
-    
-    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

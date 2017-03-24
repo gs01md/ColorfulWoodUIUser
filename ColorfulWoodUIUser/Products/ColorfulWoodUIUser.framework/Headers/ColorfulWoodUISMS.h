@@ -32,4 +32,5 @@
  */
 @property(nonatomic, strong)UIButton* m_btnConfirm;
 
+
 @end

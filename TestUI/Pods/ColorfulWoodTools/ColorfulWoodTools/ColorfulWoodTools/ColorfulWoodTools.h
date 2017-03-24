@@ -12,5 +12,13 @@ FOUNDATION_EXPORT double ColorfulWoodToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char ColorfulWoodToolsVersionString[];
 
 #import "ColorfulWoodAlert.h"
+#import "UIViewController+ColorfulWoodAddtional.h"
+#import "UIImage+ColorfulWoodAddtional.h"
+#import "UINavigationItem+ColorfulWoodMargin.h"
+#import "NSString+ColorfulWoodRegex.h"
+#import "NSDictionary+BmobCheckResult.h"
+#import "ColorfulWoodSelectPhoto.h"
+#import "ColorfullWoodToolDefine.h"
+
 
 

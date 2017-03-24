@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ColorfulWoodCategories.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>ColorfulWoodTools.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,17 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>ColorfulWoodUIUser.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>JKCategories.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSONModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -49,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -57,22 +57,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0EB7725518D255A932BC0DF4DB6855B8</key>
+		<key>3B4341822F16F71193FEB31FA220B31D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>14C71D3E0ABAD3CC8AB5BFDB807B2FB1</key>
+		<key>402DEAC1D7201AEE01F60E176DD0FE62</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3E2419C4352088767A6B5DD92545100F</key>
+		<key>55E3CFFEDC2629EE0C17B343EC00595B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>84869A3F75B14DB7432CF0E7D8A14AF0</key>
+		<key>A806EE7264C62FD7FFAB9B05113EFB49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B21F3347B0D0A016AFFC578DA535EAAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -83,11 +88,6 @@
 			<true/>
 		</dict>
 		<key>BFC104EA05596275561DC3F086C247AD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DAD0DD381EE0648C0E9CB5051569208A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -23,6 +23,8 @@
 /* Begin PBXBuildFile section */
 		6EAAA8C00D807852E2467E8D /* libPods-ColorfulWoodUIUser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639425EDB0885A7403D6F412 /* libPods-ColorfulWoodUIUser.a */; };
 		8B2A0B941E3CA15800603D55 /* ColorfulWoodUIUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2A0B921E3CA15800603D55 /* ColorfulWoodUIUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B35506C1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B35506A1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B35506D1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B35506B1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.m */; };
 		8B378A511E5428C70079F414 /* ColorfulWoodUIRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B378A4F1E5428C70079F414 /* ColorfulWoodUIRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B378A521E5428C70079F414 /* ColorfulWoodUIRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B378A501E5428C70079F414 /* ColorfulWoodUIRegister.m */; };
 		8B378A551E5428D50079F414 /* ColorfulWoodUIForget.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B378A531E5428D50079F414 /* ColorfulWoodUIForget.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +42,8 @@
 		8B2A0B8F1E3CA15800603D55 /* ColorfulWoodUIUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorfulWoodUIUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A0B921E3CA15800603D55 /* ColorfulWoodUIUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodUIUser.h; sourceTree = "<group>"; };
 		8B2A0B931E3CA15800603D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B35506A1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodUIPhoneSMS.h; sourceTree = "<group>"; };
+		8B35506B1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodUIPhoneSMS.m; sourceTree = "<group>"; };
 		8B378A4F1E5428C70079F414 /* ColorfulWoodUIRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodUIRegister.h; sourceTree = "<group>"; };
 		8B378A501E5428C70079F414 /* ColorfulWoodUIRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodUIRegister.m; sourceTree = "<group>"; };
 		8B378A531E5428D50079F414 /* ColorfulWoodUIForget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodUIForget.h; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 		8B2A0B911E3CA15800603D55 /* ColorfulWoodUIUser */ = {
 			isa = PBXGroup;
 			children = (
+				8B3C8CBD1E5EF20100FA7868 /* ColorfulWoodUIPhoneSMS */,
 				8B378A581E542FE20079F414 /* ColorfulWoodUIPhonePwd */,
 				8B378A571E542E530079F414 /* ColorfulWoodUISMS */,
 				8B378A4E1E54288A0079F414 /* ColorfulWoodUIForget */,
@@ -151,6 +156,15 @@
 			path = ColorfulWoodUIPhonePwd;
 			sourceTree = "<group>";
 		};
+		8B3C8CBD1E5EF20100FA7868 /* ColorfulWoodUIPhoneSMS */ = {
+			isa = PBXGroup;
+			children = (
+				8B35506A1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.h */,
+				8B35506B1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.m */,
+			);
+			path = ColorfulWoodUIPhoneSMS;
+			sourceTree = "<group>";
+		};
 		8B65E3E61E51414D00F6686D /* ColorfulWoodUILogin */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +186,7 @@
 				8B65E3E91E51418F00F6686D /* ColorfulWoodUILogin.h in Headers */,
 				8B378A5F1E54300C0079F414 /* ColorfulWoodUIPhonePwd.h in Headers */,
 				8B378A5B1E542FFE0079F414 /* ColorfulWoodUISMS.h in Headers */,
+				8B35506C1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.h in Headers */,
 				8B2A0B941E3CA15800603D55 /* ColorfulWoodUIUser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +318,7 @@
 				8B378A561E5428D50079F414 /* ColorfulWoodUIForget.m in Sources */,
 				8B378A5C1E542FFE0079F414 /* ColorfulWoodUISMS.m in Sources */,
 				8B378A521E5428C70079F414 /* ColorfulWoodUIRegister.m in Sources */,
+				8B35506D1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

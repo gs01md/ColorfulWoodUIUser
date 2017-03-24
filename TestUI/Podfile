@@ -7,10 +7,9 @@ target 'TestUI' do
 pod 'Masonry'
 pod 'BmobSDK'
 pod 'JKCategories'
-pod 'ColorfulWoodCategories'
-pod 'ColorfulWoodUIUser'
 pod 'ColorfulWoodUIBase'
 pod 'ColorfulWoodTools'
 pod 'IQKeyboardManager', '~> 3.3.4'
-
+pod 'JSONModel'
+pod 'SDWebImage'
 end

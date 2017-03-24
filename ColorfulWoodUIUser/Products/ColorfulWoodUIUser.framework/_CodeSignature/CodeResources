@@ -16,17 +16,21 @@
 		<data>
 		IBKcEfmJ2e7IOME3NoL5j7dOGFo=
 		</data>
+		<key>Headers/ColorfulWoodUIPhoneSMS.h</key>
+		<data>
+		xIw20bCb1/4wgZNdNfpdVMPlLnM=
+		</data>
 		<key>Headers/ColorfulWoodUIRegister.h</key>
 		<data>
 		P6YkgAsMTPjAuWIpyQN3i32Q6DA=
 		</data>
 		<key>Headers/ColorfulWoodUISMS.h</key>
 		<data>
-		nph5AFZfck32s/AWD2KQ83VdPzI=
+		U4H/TNZoOPWcypMnzWoCh+AaW+Q=
 		</data>
 		<key>Headers/ColorfulWoodUIUser.h</key>
 		<data>
-		3+Xm/39PjfH0ucZPpUhaLLf7d/M=
+		II/PKZvUoEIgnkXcy/xO9GBlf+g=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -72,6 +76,17 @@
 			u6QIJsDGZZ/PYApDLTom/pzfWxdYzg7XblrNvsTQJ2s=
 			</data>
 		</dict>
+		<key>Headers/ColorfulWoodUIPhoneSMS.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xIw20bCb1/4wgZNdNfpdVMPlLnM=
+			</data>
+			<key>hash2</key>
+			<data>
+			EN/dH7HpyRKRK8DOWCoOC9zENRcqVJho1tzQIQwJgp4=
+			</data>
+		</dict>
 		<key>Headers/ColorfulWoodUIRegister.h</key>
 		<dict>
 			<key>hash</key>
@@ -87,22 +102,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nph5AFZfck32s/AWD2KQ83VdPzI=
+			U4H/TNZoOPWcypMnzWoCh+AaW+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kk5czQF2qzxAQZxkKfnkBvGmdXNCxw5apoXNuhP8p9M=
+			V2N9NRbnV3Ll0BYEGGLNbK7RGDmA6eMPlWdLL+HgWXQ=
 			</data>
 		</dict>
 		<key>Headers/ColorfulWoodUIUser.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3+Xm/39PjfH0ucZPpUhaLLf7d/M=
+			II/PKZvUoEIgnkXcy/xO9GBlf+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			NafR3InHoOQ34ZO1Muz/gVD/Szh7J0OOXzPS+FFwOgQ=
+			OL0sNGysjlbcbmWvh1H/pKjrP/IlrQ71Fuchy6qOYiY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

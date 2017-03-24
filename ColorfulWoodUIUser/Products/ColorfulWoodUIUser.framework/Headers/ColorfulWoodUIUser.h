@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char ColorfulWoodUIUserVersionString[];
 #import "ColorfulWoodUILogin.h"
 #import "ColorfulWoodUIPhonePwd.h"
 #import "ColorfulWoodUISMS.h"
+#import "ColorfulWoodUIPhoneSMS.h"

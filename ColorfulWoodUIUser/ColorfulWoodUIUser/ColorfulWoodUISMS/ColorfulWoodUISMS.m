@@ -111,10 +111,10 @@
     if (!_m_btnCode) {
         
         _m_btnCode = [UIButton buttonWithType:UIButtonTypeCustom];
-        _m_btnCode.enabled = NO;
+        _m_btnCode.enabled = YES;
         _m_btnCode.layer.masksToBounds = YES;
         _m_btnCode.layer.cornerRadius = 4;
-        _m_btnCode.layer.borderWidth = 0;
+        _m_btnCode.layer.borderWidth = 1;
         [_m_btnCode setTitle:@"获取验证码" forState:UIControlStateNormal];
         [_m_btnCode setBackgroundImage:[self imageWithColor:CWUBDefineCreate_Color(10, 18, 50, 1) ] forState:UIControlStateNormal];
         [_m_btnCode setBackgroundImage:[self imageWithColor:[UIColor whiteColor] ] forState:UIControlStateHighlighted];
