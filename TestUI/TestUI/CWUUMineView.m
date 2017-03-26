@@ -122,7 +122,7 @@ UITableViewDataSource
         case 0:{
             
             CWUUMineViewUserCell *cell =[CWUUMineViewUserCell cellWithTableView:tableView];
-            [cell CWUUMineViewUserTableViewCell_settingWithHead:@"userHead" name:@"高帅"];
+            [cell CWUUMineViewUserTableViewCell_settingWithHead:@"userHead" name:@"请登录..."];
             
             return cell;
         }

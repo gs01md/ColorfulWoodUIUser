@@ -8,6 +8,8 @@
 
 #import "CWUUPersonalInfoViewHeadImgCell.h"
 #import <Masonry.h>
+#import "CWUUUserDetail.h"
+#import <UIImageView+WebCache.h>
 
 @interface CWUUPersonalInfoViewHeadImgCell ( )
 
@@ -101,15 +103,19 @@
 #pragma mark - 设置属性
 -(void) CWUUPersonalInfoViewHeadImgCell_settingWithHead:(NSString*)imgHead name:(NSString*)name{
     
-    if (imgHead) {
+    CWUUUserDetail * userDetail = [CWUUUserDetail shareInstance];
+    NSString* strPath = userDetail.m_userDetailModel.headImage;
+    if (strPath && strPath.length>0) {
+        NSURL * url = [NSURL URLWithString:strPath];
+        [self.m_imgHead sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:imgHead]];
+    }else{
         
-        [self.m_imgHead setImage:[UIImage imageNamed:imgHead]];
+        if (imgHead) {
+            [self.m_imgHead setImage:[UIImage imageNamed:imgHead]];
+        }
     }
-    
-    if (name) {
         
-        [self.textLabel setText:name];
-    }
+    [self.textLabel setText:name];
     
 }
 

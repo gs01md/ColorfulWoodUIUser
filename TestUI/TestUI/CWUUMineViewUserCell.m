@@ -137,11 +137,20 @@
         }
     }
     
+    NSString* strName = userDetail.m_userDetailModel.nickName;
     
-    if (name) {
+    if (strName && strName.length>0) {
         
-        [self.m_labelName setText:name];
+        [self.m_labelName setText:strName];
+        
+    }else{
+        
+        if (name) {
+            
+            [self.m_labelName setText:name];
+        }
     }
+
     
 }
 

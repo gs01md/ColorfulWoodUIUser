@@ -46,23 +46,23 @@ ColorfulWoodSelectPhotoDelegate
         
         CWUUTableViewInfoCell * cellNickName = [CWUUTableViewInfoCell new];
         cellNickName.m_cellTitle = @"昵称";
-        cellNickName.m_cellDetail = @"大风";
+        cellNickName.m_cellDetail = @"";
         cellNickName.m_canClick = YES;
         
         CWUUTableViewInfoCell * cellPhone = [CWUUTableViewInfoCell new];
         cellPhone.m_cellTitle = @"手机";
-        cellPhone.m_cellDetail = @"15910667631";
+        cellPhone.m_cellDetail = [BmobUser currentUser].mobilePhoneNumber;
         cellPhone.m_canClick = NO;
         
-        CWUUTableViewInfoCell * cellEmail = [CWUUTableViewInfoCell new];
-        cellEmail.m_cellTitle = @"邮箱";
-        cellEmail.m_cellDetail = @"15910667631";
-        cellEmail.m_canClick = YES;
+//        CWUUTableViewInfoCell * cellEmail = [CWUUTableViewInfoCell new];
+//        cellEmail.m_cellTitle = @"邮箱";
+//        cellEmail.m_cellDetail = [BmobUser currentUser].email;
+//        cellEmail.m_canClick = YES;
         
         CWUUTableViewInfoSection * sectionSetting = [CWUUTableViewInfoSection new];
         [sectionSetting.m_arrayCell addObject:cellPhone];
         [sectionSetting.m_arrayCell addObject:cellNickName];
-        [sectionSetting.m_arrayCell addObject:cellEmail];
+//        [sectionSetting.m_arrayCell addObject:cellEmail];
         
         [_m_view.m_arraySection addObject:sectionSetting];
         [_m_view CWUUPersonalInfoView_reloadTable];
@@ -83,6 +83,10 @@ ColorfulWoodSelectPhotoDelegate
     
     switch (indexPath.section) {
         case 0:
+            [self actionSection0WithIndexPath:indexPath];
+            break;
+            
+        case 1:
             [self actionSection0WithIndexPath:indexPath];
             break;
             
@@ -108,6 +112,57 @@ ColorfulWoodSelectPhotoDelegate
     
     photo = [[ColorfulWoodSelectPhoto alloc] initWithWithView:self];
     photo.delegate = self;
+    
+}
+
+#pragma mark cell点击代理事件: section 1
+- (void)actionSection1WithIndexPath:(NSIndexPath*)indexPath{
+    
+    switch (indexPath.row) {
+        case 0:
+            [self actionSection1Row0];
+            break;
+            
+        default:
+            break;
+    }
+}
+
+- (void)actionSection1Row0{
+    
+    NSDictionary  *dic = [NSDictionary  dictionaryWithObjectsAndKeys:[BmobUser currentUser].objectId,@"objectId", @"nickName",@"field",@"",@"value",nil];
+    
+    [BmobCloud callFunctionInBackground:@"UpdateUserInfo" withParameters:dic block:^(id object, NSError *error) {
+        
+        BmobError * bmobError = [NSDictionary checkWithBmobDic:object];
+        
+        if (bmobError.m_code == BmobErrorType_Success) {
+            
+            CWUUUserDetailModel * info = [[CWUUUserDetailModel alloc]initWithDictionary:object[@"content"] error:nil];
+            CWUUUserDetail * detail = [CWUUUserDetail shareInstance];
+            [detail saveUserDetail:info];
+            
+            //执行成功时调用
+            [ColorfulWoodAlert showAlertAutoHideWithTitle:@"上传成功" afterDelay:2.];
+            
+            [self.m_view CWUUPersonalInfoView_reloadTable];
+            
+        }else{
+            
+            switch (bmobError.m_code) {
+                case 201:
+                    [ColorfulWoodAlert showAlertAutoHideWithTitle:@"数据无效" afterDelay:2.];
+                    break;
+                    
+                default:
+                    [ColorfulWoodAlert showAlertAutoHideWithTitle:bmobError.m_strError afterDelay:2.];
+                    break;
+            }
+            
+        }
+        
+    }] ;
+
     
 }
 
@@ -152,6 +207,8 @@ ColorfulWoodSelectPhotoDelegate
                     
                     //执行成功时调用
                     [ColorfulWoodAlert showAlertAutoHideWithTitle:@"上传成功" afterDelay:2.];
+                    
+                    [self.m_view CWUUPersonalInfoView_reloadTable];
                     
                 }else{
                     
@@ -199,5 +256,6 @@ ColorfulWoodSelectPhotoDelegate
         }
     }];
 }
+
 
 @end

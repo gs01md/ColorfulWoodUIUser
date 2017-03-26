@@ -34,6 +34,13 @@ CWUULoginViewControllerDelegate
     [self.view addSubview:self.m_view];
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    
+    [self.m_view CWUUMineView_reloadTable];
+}
+
 #pragma mark - 属性
 - (CWUUMineView*)m_view{
     

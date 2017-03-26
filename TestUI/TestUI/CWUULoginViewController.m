@@ -114,6 +114,8 @@ CWUUPhoneCodeViewControllerDelegate
                         
                         [ColorfulWoodAlert showAlertAutoHideWithTitle:@"登录成功" afterDelay:2.];
                         
+                        [self CWUUPhonePwdViewControllerDelegate_success];
+                        
                     }else{
                         
                         switch (bmobError.m_code) {
@@ -129,10 +131,6 @@ CWUUPhoneCodeViewControllerDelegate
                     }
                     
                 }] ;
-
-                
-                
-                [self CWUUPhonePwdViewControllerDelegate_success];
                 
             } else {
                 
