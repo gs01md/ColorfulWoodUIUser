@@ -13,13 +13,16 @@
 #import <BmobSDK/Bmob.h>
 #import "CWUUUserDetailModel.h"
 #import "CWUUUserDetail.h"
+#import "CWUUTextFieldViewController.h"
 
 @interface CWUUPersonalInfoViewController ()<
 CWUUTableViewInfoDelegate,
-ColorfulWoodSelectPhotoDelegate
+ColorfulWoodSelectPhotoDelegate,
+CWUUTextFieldViewControllerDelegate
 >{
     
     ColorfulWoodSelectPhoto * photo;
+    CWUUTextFieldViewController * m_nickNameVC;
 }
 
 @end
@@ -44,31 +47,41 @@ ColorfulWoodSelectPhotoDelegate
         _m_view = [[CWUUPersonalInfoView alloc] initWithFrame:self.view.frame];
         _m_view.delegate = self;
         
-        CWUUTableViewInfoCell * cellNickName = [CWUUTableViewInfoCell new];
-        cellNickName.m_cellTitle = @"昵称";
-        cellNickName.m_cellDetail = @"";
-        cellNickName.m_canClick = YES;
-        
-        CWUUTableViewInfoCell * cellPhone = [CWUUTableViewInfoCell new];
-        cellPhone.m_cellTitle = @"手机";
-        cellPhone.m_cellDetail = [BmobUser currentUser].mobilePhoneNumber;
-        cellPhone.m_canClick = NO;
-        
-//        CWUUTableViewInfoCell * cellEmail = [CWUUTableViewInfoCell new];
-//        cellEmail.m_cellTitle = @"邮箱";
-//        cellEmail.m_cellDetail = [BmobUser currentUser].email;
-//        cellEmail.m_canClick = YES;
-        
-        CWUUTableViewInfoSection * sectionSetting = [CWUUTableViewInfoSection new];
-        [sectionSetting.m_arrayCell addObject:cellPhone];
-        [sectionSetting.m_arrayCell addObject:cellNickName];
-//        [sectionSetting.m_arrayCell addObject:cellEmail];
-        
-        [_m_view.m_arraySection addObject:sectionSetting];
-        [_m_view CWUUPersonalInfoView_reloadTable];
+        [self reloadTable];
+
     }
     
     return _m_view;
+}
+
+#pragma mark - 功能
+- (void)reloadTable {
+    
+    [self.m_view.m_arraySection removeAllObjects];
+    
+    CWUUUserDetail * detail = [CWUUUserDetail shareInstance];
+    CWUUTableViewInfoCell * cellNickName = [CWUUTableViewInfoCell new];
+    cellNickName.m_cellTitle = @"昵称";
+    cellNickName.m_cellDetail = detail.m_userDetailModel.nickName;
+    cellNickName.m_canClick = YES;
+    
+    CWUUTableViewInfoCell * cellPhone = [CWUUTableViewInfoCell new];
+    cellPhone.m_cellTitle = @"手机";
+    cellPhone.m_cellDetail = [BmobUser currentUser].mobilePhoneNumber;
+    cellPhone.m_canClick = NO;
+    
+    //        CWUUTableViewInfoCell * cellEmail = [CWUUTableViewInfoCell new];
+    //        cellEmail.m_cellTitle = @"邮箱";
+    //        cellEmail.m_cellDetail = [BmobUser currentUser].email;
+    //        cellEmail.m_canClick = YES;
+    
+    CWUUTableViewInfoSection * sectionSetting = [CWUUTableViewInfoSection new];
+    [sectionSetting.m_arrayCell addObject:cellPhone];
+    [sectionSetting.m_arrayCell addObject:cellNickName];
+    //        [sectionSetting.m_arrayCell addObject:cellEmail];
+    
+    [_m_view.m_arraySection addObject:sectionSetting];
+    [_m_view CWUUPersonalInfoView_reloadTable];
 }
 
 #pragma mark - 事件
@@ -87,7 +100,7 @@ ColorfulWoodSelectPhotoDelegate
             break;
             
         case 1:
-            [self actionSection0WithIndexPath:indexPath];
+            [self actionSection1WithIndexPath:indexPath];
             break;
             
         default:
@@ -119,8 +132,8 @@ ColorfulWoodSelectPhotoDelegate
 - (void)actionSection1WithIndexPath:(NSIndexPath*)indexPath{
     
     switch (indexPath.row) {
-        case 0:
-            [self actionSection1Row0];
+        case 1:
+            [self actionSection1Row1];
             break;
             
         default:
@@ -128,41 +141,14 @@ ColorfulWoodSelectPhotoDelegate
     }
 }
 
-- (void)actionSection1Row0{
+- (void)actionSection1Row1{
     
-    NSDictionary  *dic = [NSDictionary  dictionaryWithObjectsAndKeys:[BmobUser currentUser].objectId,@"objectId", @"nickName",@"field",@"",@"value",nil];
+    m_nickNameVC = [CWUUTextFieldViewController new];
+    m_nickNameVC.title = @"更改昵称";
+    m_nickNameVC.m_filed.placeholder = @"请输入昵称";
+    m_nickNameVC.delegate = self;
+    [self.navigationController pushViewController:m_nickNameVC animated:YES];
     
-    [BmobCloud callFunctionInBackground:@"UpdateUserInfo" withParameters:dic block:^(id object, NSError *error) {
-        
-        BmobError * bmobError = [NSDictionary checkWithBmobDic:object];
-        
-        if (bmobError.m_code == BmobErrorType_Success) {
-            
-            CWUUUserDetailModel * info = [[CWUUUserDetailModel alloc]initWithDictionary:object[@"content"] error:nil];
-            CWUUUserDetail * detail = [CWUUUserDetail shareInstance];
-            [detail saveUserDetail:info];
-            
-            //执行成功时调用
-            [ColorfulWoodAlert showAlertAutoHideWithTitle:@"上传成功" afterDelay:2.];
-            
-            [self.m_view CWUUPersonalInfoView_reloadTable];
-            
-        }else{
-            
-            switch (bmobError.m_code) {
-                case 201:
-                    [ColorfulWoodAlert showAlertAutoHideWithTitle:@"数据无效" afterDelay:2.];
-                    break;
-                    
-                default:
-                    [ColorfulWoodAlert showAlertAutoHideWithTitle:bmobError.m_strError afterDelay:2.];
-                    break;
-            }
-            
-        }
-        
-    }] ;
-
     
 }
 
@@ -206,7 +192,7 @@ ColorfulWoodSelectPhotoDelegate
                     [detail saveUserDetail:info];
                     
                     //执行成功时调用
-                    [ColorfulWoodAlert showAlertAutoHideWithTitle:@"上传成功" afterDelay:2.];
+                    [ColorfulWoodAlert showAlertAutoHideWithTitle:@"头像上传成功" afterDelay:2.];
                     
                     [self.m_view CWUUPersonalInfoView_reloadTable];
                     
@@ -257,5 +243,44 @@ ColorfulWoodSelectPhotoDelegate
     }];
 }
 
+#pragma mark - 设置昵称代理
+- (void)CWUUTextFieldViewControllerDelegate_save:(NSString*)text {
+    
+    [self.navigationController popToViewController:self animated:YES];
+    
+    NSDictionary  *dic = [NSDictionary  dictionaryWithObjectsAndKeys:[BmobUser currentUser].objectId,@"objectId", @"nickName",@"field",text,@"value",nil];
+    
+    [BmobCloud callFunctionInBackground:@"UpdateUserInfo" withParameters:dic block:^(id object, NSError *error) {
+        
+        BmobError * bmobError = [NSDictionary checkWithBmobDic:object];
+        
+        if (bmobError.m_code == BmobErrorType_Success) {
+            
+            CWUUUserDetailModel * info = [[CWUUUserDetailModel alloc]initWithDictionary:object[@"content"] error:nil];
+            CWUUUserDetail * detail = [CWUUUserDetail shareInstance];
+            [detail saveUserDetail:info];
+            
+            //执行成功时调用
+            [ColorfulWoodAlert showAlertAutoHideWithTitle:@"昵称更改成功" afterDelay:2.];
+            
+            [self reloadTable];
+            
+        }else{
+            
+            switch (bmobError.m_code) {
+                case 201:
+                    [ColorfulWoodAlert showAlertAutoHideWithTitle:@"数据无效" afterDelay:2.];
+                    break;
+                    
+                default:
+                    [ColorfulWoodAlert showAlertAutoHideWithTitle:bmobError.m_strError afterDelay:2.];
+                    break;
+            }
+            
+        }
+        
+    }] ;
+    
 
+}
 @end

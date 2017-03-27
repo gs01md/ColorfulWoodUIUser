@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E419D211E87E703001D6795 /* CWUULeftImageRightTextVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E419D201E87E703001D6795 /* CWUULeftImageRightTextVIewController.m */; };
 		8B03D6641E5FDC7F004DA716 /* ColorfulWoodUIUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B03D6631E5FDC7F004DA716 /* ColorfulWoodUIUser.framework */; };
 		8B03D6651E5FDC7F004DA716 /* ColorfulWoodUIUser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B03D6631E5FDC7F004DA716 /* ColorfulWoodUIUser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B03D6681E5FE580004DA716 /* CWUUPhoneCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D6671E5FE580004DA716 /* CWUUPhoneCodeViewController.m */; };
@@ -36,6 +35,7 @@
 		8B52D3781E7FCA3300738965 /* CWUUPersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52D3771E7FCA3300738965 /* CWUUPersonalInfoViewController.m */; };
 		8B6262E41E80F743000D3868 /* CWUUPersonalInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6262E31E80F743000D3868 /* CWUUPersonalInfoView.m */; };
 		8B6262E71E80FB34000D3868 /* CWUUTableViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6262E61E80FB34000D3868 /* CWUUTableViewInfo.m */; };
+		8BA989331E89144400190F80 /* CWUUTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA989321E89144400190F80 /* CWUUTextFieldViewController.m */; };
 		CE8E8D92182A292C2F432E2E /* libPods-TestUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */; };
 /* End PBXBuildFile section */
 
@@ -72,8 +72,6 @@
 
 /* Begin PBXFileReference section */
 		03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E419D1F1E87E703001D6795 /* CWUULeftImageRightTextVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUULeftImageRightTextVIewController.h; sourceTree = "<group>"; };
-		6E419D201E87E703001D6795 /* CWUULeftImageRightTextVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUULeftImageRightTextVIewController.m; sourceTree = "<group>"; };
 		8B03D6631E5FDC7F004DA716 /* ColorfulWoodUIUser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ColorfulWoodUIUser.framework; sourceTree = "<group>"; };
 		8B03D6661E5FE580004DA716 /* CWUUPhoneCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPhoneCodeViewController.h; sourceTree = "<group>"; };
 		8B03D6671E5FE580004DA716 /* CWUUPhoneCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPhoneCodeViewController.m; sourceTree = "<group>"; };
@@ -127,6 +125,8 @@
 		8B6262E31E80F743000D3868 /* CWUUPersonalInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoView.m; sourceTree = "<group>"; };
 		8B6262E51E80FB34000D3868 /* CWUUTableViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUTableViewInfo.h; sourceTree = "<group>"; };
 		8B6262E61E80FB34000D3868 /* CWUUTableViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUTableViewInfo.m; sourceTree = "<group>"; };
+		8BA989311E89144400190F80 /* CWUUTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUTextFieldViewController.h; sourceTree = "<group>"; };
+		8BA989321E89144400190F80 /* CWUUTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUTextFieldViewController.m; sourceTree = "<group>"; };
 		B485B75A70CF5ABE10948B63 /* Pods-TestUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestUI/Pods-TestUI.release.xcconfig"; sourceTree = "<group>"; };
 		E24D33A24C5445A7EAF11A12 /* Pods-TestUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestUI/Pods-TestUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -227,8 +227,8 @@
 				8B6262E61E80FB34000D3868 /* CWUUTableViewInfo.m */,
 				8B45233A1E85003B00032794 /* CWUUUserDetailModel.h */,
 				8B45233B1E85003B00032794 /* CWUUUserDetailModel.m */,
-				6E419D1F1E87E703001D6795 /* CWUULeftImageRightTextVIewController.h */,
-				6E419D201E87E703001D6795 /* CWUULeftImageRightTextVIewController.m */,
+				8BA989311E89144400190F80 /* CWUUTextFieldViewController.h */,
+				8BA989321E89144400190F80 /* CWUUTextFieldViewController.m */,
 			);
 			path = TestUI;
 			sourceTree = "<group>";
@@ -472,6 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA989331E89144400190F80 /* CWUUTextFieldViewController.m in Sources */,
 				8B03D6681E5FE580004DA716 /* CWUUPhoneCodeViewController.m in Sources */,
 				8B4984831E7B895B009BC888 /* CWUUUserDetail.m in Sources */,
 				8B45233C1E85003B00032794 /* CWUUUserDetailModel.m in Sources */,
@@ -487,7 +488,6 @@
 				8B2A0B3F1E3C17AB00603D55 /* AppDelegate.m in Sources */,
 				8B4688D61E5D953600D397AE /* CWUUSignUpCodeViewController.m in Sources */,
 				8B03D66B1E601BE4004DA716 /* CWUUMineViewController.m in Sources */,
-				6E419D211E87E703001D6795 /* CWUULeftImageRightTextVIewController.m in Sources */,
 				8B4984801E7B8850009BC888 /* CWUULoginManager.m in Sources */,
 				8B49FA5C1E56EAA700916D11 /* CWUUCodeViewController.m in Sources */,
 				8B2A0B3C1E3C17AB00603D55 /* main.m in Sources */,
