@@ -23,4 +23,10 @@
     [aCoder encodeObject:_nickName forKey:@"nickName"];
 }
 
+- (void)resettingDetail{
+    
+    self.nickName = @"";
+    self.headImage = @"";
+}
+
 @end

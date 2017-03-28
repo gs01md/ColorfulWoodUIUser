@@ -7,9 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CWUUUserDetailModel.h"
 
 @interface CWUULoginManager : NSObject
 
-@property(nonatomic, strong) NSString * m_str;
+@property (nonatomic, strong) CWUUUserDetailModel * m_userDetailModel;
 
+
++ (id)shareInstance;
+
+- (void)saveUserDetail:(CWUUUserDetailModel*)detail;
+
+/**
+ * 退出后清除信息
+ */
+- (void)removeUserDetail;
 @end

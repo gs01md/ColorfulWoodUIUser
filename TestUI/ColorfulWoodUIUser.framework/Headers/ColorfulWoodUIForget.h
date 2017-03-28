@@ -10,4 +10,30 @@
 
 @interface ColorfulWoodUIForget : UIView
 
+/**
+ * 输入密码
+ */
+@property(nonatomic, strong)UITextField* m_fieldPwd;
+
+/**
+ * 确认密码
+ */
+@property(nonatomic, strong)UITextField* m_fieldPwdConfig;
+
+/**
+ * 密码图片
+ */
+@property(nonatomic, strong)UIImageView* m_imgPwd;
+
+/**
+ * 确认密码图片
+ */
+@property(nonatomic, strong)UIImageView* m_imgPwdConfig;
+
+/**
+ * 按钮
+ */
+@property(nonatomic, strong)UIButton* m_btnConfirm;
+
+
 @end

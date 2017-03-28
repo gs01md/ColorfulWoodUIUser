@@ -16,7 +16,7 @@
 #import <ColorfulWoodTools.h>
 #import "CWUUSignUpPhonePwdViewController.h"
 #import "CWUUPhoneCodeViewController.h"
-#import "CWUUUserDetail.h"
+#import "CWUULoginManager.h"
 
 @interface CWUULoginViewController ()<
 CWUUPhonePwdViewControllerDelegate,
@@ -109,7 +109,7 @@ CWUUPhoneCodeViewControllerDelegate
                     if (bmobError.m_code == BmobErrorType_Success) {
                         
                         CWUUUserDetailModel * info = [[CWUUUserDetailModel alloc]initWithDictionary:object[@"content"] error:nil];
-                        CWUUUserDetail * detail = [CWUUUserDetail shareInstance];
+                        CWUULoginManager * detail = [CWUULoginManager shareInstance];
                         [detail saveUserDetail:info];
                         
                         [ColorfulWoodAlert showAlertAutoHideWithTitle:@"登录成功" afterDelay:2.];

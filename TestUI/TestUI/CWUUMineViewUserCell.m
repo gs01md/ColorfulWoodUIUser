@@ -9,7 +9,7 @@
 #import "CWUUMineViewUserCell.h"
 #import <Masonry.h>
 #import "UIImageView+WebCache.h"
-#import "CWUUUserDetail.h"
+#import "CWUULoginManager.h"
 
 @interface CWUUMineViewUserCell ( )
 
@@ -125,7 +125,7 @@
 #pragma mark - 设置属性
 -(void) CWUUMineViewUserTableViewCell_settingWithHead:(NSString*)imgHead name:(NSString*)name{
     
-    CWUUUserDetail * userDetail = [CWUUUserDetail shareInstance];
+    CWUULoginManager * userDetail = [CWUULoginManager shareInstance];
     NSString* strPath = userDetail.m_userDetailModel.headImage;
     if (strPath && strPath.length>0) {
         NSURL * url = [NSURL URLWithString:strPath];

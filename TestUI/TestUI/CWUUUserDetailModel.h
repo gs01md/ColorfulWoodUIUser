@@ -11,5 +11,10 @@
 @interface CWUUUserDetailModel : JSONModel<NSCoding>
 @property (nonatomic, retain) NSString <Optional>* nickName;
 @property (nonatomic, retain) NSString <Optional>* headImage;
+
+/**
+ * 重置数据
+ */
+- (void)resettingDetail;
 @end
 

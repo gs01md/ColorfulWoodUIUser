@@ -12,7 +12,7 @@
 #import <ColorfulWoodUIBase/CWUBDefine.h>
 #import <BmobSDK/Bmob.h>
 #import "CWUUUserDetailModel.h"
-#import "CWUUUserDetail.h"
+#import "CWUULoginManager.h"
 #import "CWUUTextFieldViewController.h"
 
 @interface CWUUPersonalInfoViewController ()<
@@ -59,7 +59,7 @@ CWUUTextFieldViewControllerDelegate
     
     [self.m_view.m_arraySection removeAllObjects];
     
-    CWUUUserDetail * detail = [CWUUUserDetail shareInstance];
+    CWUULoginManager * detail = [CWUULoginManager shareInstance];
     CWUUTableViewInfoCell * cellNickName = [CWUUTableViewInfoCell new];
     cellNickName.m_cellTitle = @"昵称";
     cellNickName.m_cellDetail = detail.m_userDetailModel.nickName;
@@ -188,7 +188,7 @@ CWUUTextFieldViewControllerDelegate
                 if (bmobError.m_code == BmobErrorType_Success) {
                     
                     CWUUUserDetailModel * info = [[CWUUUserDetailModel alloc]initWithDictionary:object[@"content"] error:nil];
-                    CWUUUserDetail * detail = [CWUUUserDetail shareInstance];
+                    CWUULoginManager * detail = [CWUULoginManager shareInstance];
                     [detail saveUserDetail:info];
                     
                     //执行成功时调用
@@ -257,7 +257,7 @@ CWUUTextFieldViewControllerDelegate
         if (bmobError.m_code == BmobErrorType_Success) {
             
             CWUUUserDetailModel * info = [[CWUUUserDetailModel alloc]initWithDictionary:object[@"content"] error:nil];
-            CWUUUserDetail * detail = [CWUUUserDetail shareInstance];
+            CWUULoginManager * detail = [CWUULoginManager shareInstance];
             [detail saveUserDetail:info];
             
             //执行成功时调用

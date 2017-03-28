@@ -11,6 +11,7 @@
 #import "CWUULoginViewController.h"
 #import "CWUUPersonalInfoViewController.h"
 #import "CWUUTableViewInfo.h"
+#import "CWUUSettingViewController.h"
 
 @interface CWUUMineViewController ()<
 CWUUTableViewInfoDelegate,
@@ -18,9 +19,10 @@ CWUULoginViewControllerDelegate
 >{
     CWUULoginViewController * m_loginViewController;
     CWUUPersonalInfoViewController * m_personalInfoViewController;
+    
 }
 
-
+@property(nonatomic, strong)CWUUSettingViewController * m_settingViewController;
 
 @end
 
@@ -51,23 +53,33 @@ CWUULoginViewControllerDelegate
         
         CWUUTableViewInfoCell * cellSetting = [CWUUTableViewInfoCell new];
         cellSetting.m_cellTitle = @"设置";
-        cellSetting.m_cellImg = @"loginPhone";
+        cellSetting.m_cellImg = @"colorfulWoodUIUser_setting";
         cellSetting.m_canClick = YES;
         
-        CWUUTableViewInfoCell * cellAbout = [CWUUTableViewInfoCell new];
-        cellAbout.m_cellTitle = @"关于";
-        cellAbout.m_cellImg = @"loginPhone";
-        cellAbout.m_canClick = YES;
+//        CWUUTableViewInfoCell * cellAbout = [CWUUTableViewInfoCell new];
+//        cellAbout.m_cellTitle = @"关于";
+//        cellAbout.m_cellImg = @"colorfulWoodUIUser_about";
+//        cellAbout.m_canClick = YES;
         
         CWUUTableViewInfoSection * sectionSetting = [CWUUTableViewInfoSection new];
         [sectionSetting.m_arrayCell addObject:cellSetting] ;
-        [sectionSetting.m_arrayCell addObject:cellAbout] ;
+//        [sectionSetting.m_arrayCell addObject:cellAbout] ;
         
         [_m_view.m_arraySection addObject:sectionSetting];
         [_m_view CWUUMineView_reloadTable];
     }
     
     return _m_view;
+}
+
+- (CWUUSettingViewController*)m_settingViewController{
+    
+    if (!_m_settingViewController) {
+    
+        _m_settingViewController = [CWUUSettingViewController new];
+    }
+    
+    return _m_settingViewController;
 }
 
 #pragma mark - 界面的代理
@@ -149,7 +161,7 @@ CWUULoginViewControllerDelegate
             
         case 0:{
             
-            
+            [self actionSection1Row0];
         }
             
             break;
@@ -163,6 +175,15 @@ CWUULoginViewControllerDelegate
         default:
             break;
     }
+    
+}
+
+/**
+ * 跳转到个人设置页面
+ */
+- (void)actionSection1Row0{
+    
+    [self.navigationController pushViewController:self.m_settingViewController animated:YES];
     
 }
 
