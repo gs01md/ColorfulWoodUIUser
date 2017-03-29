@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B03D57B1E8BAA7500B2DDDC /* CWUUCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5541E8BAA7500B2DDDC /* CWUUCodeViewController.m */; };
+		8B03D57C1E8BAA7500B2DDDC /* CWUUForgetCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5561E8BAA7500B2DDDC /* CWUUForgetCodeViewController.m */; };
+		8B03D57D1E8BAA7500B2DDDC /* CWUUForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5581E8BAA7500B2DDDC /* CWUUForgetPasswordViewController.m */; };
+		8B03D57E1E8BAA7500B2DDDC /* CWUULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D55A1E8BAA7500B2DDDC /* CWUULoginManager.m */; };
+		8B03D57F1E8BAA7500B2DDDC /* CWUULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D55C1E8BAA7500B2DDDC /* CWUULoginViewController.m */; };
+		8B03D5801E8BAA7500B2DDDC /* CWUUMineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D55E1E8BAA7500B2DDDC /* CWUUMineView.m */; };
+		8B03D5811E8BAA7500B2DDDC /* CWUUMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5601E8BAA7500B2DDDC /* CWUUMineViewController.m */; };
+		8B03D5821E8BAA7500B2DDDC /* CWUUMineViewUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5621E8BAA7500B2DDDC /* CWUUMineViewUserCell.m */; };
+		8B03D5831E8BAA7500B2DDDC /* CWUUPersonalInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5641E8BAA7500B2DDDC /* CWUUPersonalInfoView.m */; };
+		8B03D5841E8BAA7500B2DDDC /* CWUUPersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5661E8BAA7500B2DDDC /* CWUUPersonalInfoViewController.m */; };
+		8B03D5851E8BAA7500B2DDDC /* CWUUPersonalInfoViewHeadImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5681E8BAA7500B2DDDC /* CWUUPersonalInfoViewHeadImgCell.m */; };
+		8B03D5861E8BAA7500B2DDDC /* CWUUPhoneCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D56A1E8BAA7500B2DDDC /* CWUUPhoneCodeViewController.m */; };
+		8B03D5871E8BAA7500B2DDDC /* CWUUPhonePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D56C1E8BAA7500B2DDDC /* CWUUPhonePwdViewController.m */; };
+		8B03D5881E8BAA7500B2DDDC /* CWUUSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D56E1E8BAA7500B2DDDC /* CWUUSettingView.m */; };
+		8B03D5891E8BAA7500B2DDDC /* CWUUSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5701E8BAA7500B2DDDC /* CWUUSettingViewController.m */; };
+		8B03D58A1E8BAA7500B2DDDC /* CWUUSignUpCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5721E8BAA7500B2DDDC /* CWUUSignUpCodeViewController.m */; };
+		8B03D58B1E8BAA7500B2DDDC /* CWUUSignUpPhonePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5741E8BAA7500B2DDDC /* CWUUSignUpPhonePwdViewController.m */; };
+		8B03D58C1E8BAA7500B2DDDC /* CWUUTableViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5761E8BAA7500B2DDDC /* CWUUTableViewInfo.m */; };
+		8B03D58D1E8BAA7500B2DDDC /* CWUUTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D5781E8BAA7500B2DDDC /* CWUUTextFieldViewController.m */; };
+		8B03D58E1E8BAA7500B2DDDC /* CWUUUserDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D57A1E8BAA7500B2DDDC /* CWUUUserDetailModel.m */; };
 		8B03D6641E5FDC7F004DA716 /* ColorfulWoodUIUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B03D6631E5FDC7F004DA716 /* ColorfulWoodUIUser.framework */; };
 		8B03D6651E5FDC7F004DA716 /* ColorfulWoodUIUser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B03D6631E5FDC7F004DA716 /* ColorfulWoodUIUser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8B03D6681E5FE580004DA716 /* CWUUPhoneCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D6671E5FE580004DA716 /* CWUUPhoneCodeViewController.m */; };
-		8B03D66B1E601BE4004DA716 /* CWUUMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D66A1E601BE4004DA716 /* CWUUMineViewController.m */; };
-		8B03D66E1E601E5C004DA716 /* CWUUMineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D66D1E601E5C004DA716 /* CWUUMineView.m */; };
 		8B2A0B3C1E3C17AB00603D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B3B1E3C17AB00603D55 /* main.m */; };
 		8B2A0B3F1E3C17AB00603D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B3E1E3C17AB00603D55 /* AppDelegate.m */; };
-		8B2A0B421E3C17AB00603D55 /* CWUULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B411E3C17AB00603D55 /* CWUULoginViewController.m */; };
 		8B2A0B451E3C17AB00603D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A0B431E3C17AB00603D55 /* Main.storyboard */; };
 		8B2A0B481E3C17AB00603D55 /* TestUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B461E3C17AB00603D55 /* TestUI.xcdatamodeld */; };
 		8B2A0B4A1E3C17AB00603D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A0B491E3C17AB00603D55 /* Assets.xcassets */; };
@@ -22,23 +38,7 @@
 		8B2A0B581E3C17AB00603D55 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B571E3C17AB00603D55 /* TestUITests.m */; };
 		8B2A0B631E3C17AB00603D55 /* TestUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B621E3C17AB00603D55 /* TestUIUITests.m */; };
 		8B378A621E5451170079F414 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B378A611E5451170079F414 /* MapKit.framework */; };
-		8B3B57CB1E8A37EC00DEB6AF /* CWUUSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57CA1E8A37EC00DEB6AF /* CWUUSettingView.m */; };
-		8B3B57CE1E8A5D9100DEB6AF /* CWUUForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57CD1E8A5D9100DEB6AF /* CWUUForgetPasswordViewController.m */; };
-		8B3B57D11E8A611500DEB6AF /* CWUUForgetCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57D01E8A611500DEB6AF /* CWUUForgetCodeViewController.m */; };
-		8B45233C1E85003B00032794 /* CWUUUserDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B45233B1E85003B00032794 /* CWUUUserDetailModel.m */; };
 		8B4688BF1E5D3D0500D397AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4688BE1E5D3D0500D397AE /* ViewController.m */; };
-		8B4688D61E5D953600D397AE /* CWUUSignUpCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4688D51E5D953600D397AE /* CWUUSignUpCodeViewController.m */; };
-		8B4688DC1E5D9EA600D397AE /* CWUUSignUpPhonePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4688DB1E5D9EA600D397AE /* CWUUSignUpPhonePwdViewController.m */; };
-		8B4976861E55B4F900628925 /* CWUUPhonePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4976851E55B4F900628925 /* CWUUPhonePwdViewController.m */; };
-		8B4984801E7B8850009BC888 /* CWUULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49847F1E7B8850009BC888 /* CWUULoginManager.m */; };
-		8B49FA5C1E56EAA700916D11 /* CWUUCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49FA5B1E56EAA700916D11 /* CWUUCodeViewController.m */; };
-		8B4F5F581E7930C5006FE03D /* CWUUMineViewUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F5F571E7930C5006FE03D /* CWUUMineViewUserCell.m */; };
-		8B52D3751E7FC65900738965 /* CWUUPersonalInfoViewHeadImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52D3741E7FC65900738965 /* CWUUPersonalInfoViewHeadImgCell.m */; };
-		8B52D3781E7FCA3300738965 /* CWUUPersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B52D3771E7FCA3300738965 /* CWUUPersonalInfoViewController.m */; };
-		8B6262E41E80F743000D3868 /* CWUUPersonalInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6262E31E80F743000D3868 /* CWUUPersonalInfoView.m */; };
-		8B6262E71E80FB34000D3868 /* CWUUTableViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6262E61E80FB34000D3868 /* CWUUTableViewInfo.m */; };
-		8BA989331E89144400190F80 /* CWUUTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA989321E89144400190F80 /* CWUUTextFieldViewController.m */; };
-		8BA989361E89243100190F80 /* CWUUSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA989351E89243100190F80 /* CWUUSettingViewController.m */; };
 		CE8E8D92182A292C2F432E2E /* libPods-TestUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */; };
 /* End PBXBuildFile section */
 
@@ -75,19 +75,51 @@
 
 /* Begin PBXFileReference section */
 		03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B03D5531E8BAA7500B2DDDC /* CWUUCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUCodeViewController.h; sourceTree = "<group>"; };
+		8B03D5541E8BAA7500B2DDDC /* CWUUCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUCodeViewController.m; sourceTree = "<group>"; };
+		8B03D5551E8BAA7500B2DDDC /* CWUUForgetCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUForgetCodeViewController.h; sourceTree = "<group>"; };
+		8B03D5561E8BAA7500B2DDDC /* CWUUForgetCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUForgetCodeViewController.m; sourceTree = "<group>"; };
+		8B03D5571E8BAA7500B2DDDC /* CWUUForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUForgetPasswordViewController.h; sourceTree = "<group>"; };
+		8B03D5581E8BAA7500B2DDDC /* CWUUForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUForgetPasswordViewController.m; sourceTree = "<group>"; };
+		8B03D5591E8BAA7500B2DDDC /* CWUULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUULoginManager.h; sourceTree = "<group>"; };
+		8B03D55A1E8BAA7500B2DDDC /* CWUULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUULoginManager.m; sourceTree = "<group>"; };
+		8B03D55B1E8BAA7500B2DDDC /* CWUULoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUULoginViewController.h; sourceTree = "<group>"; };
+		8B03D55C1E8BAA7500B2DDDC /* CWUULoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUULoginViewController.m; sourceTree = "<group>"; };
+		8B03D55D1E8BAA7500B2DDDC /* CWUUMineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUMineView.h; sourceTree = "<group>"; };
+		8B03D55E1E8BAA7500B2DDDC /* CWUUMineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUMineView.m; sourceTree = "<group>"; };
+		8B03D55F1E8BAA7500B2DDDC /* CWUUMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUMineViewController.h; sourceTree = "<group>"; };
+		8B03D5601E8BAA7500B2DDDC /* CWUUMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUMineViewController.m; sourceTree = "<group>"; };
+		8B03D5611E8BAA7500B2DDDC /* CWUUMineViewUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUMineViewUserCell.h; sourceTree = "<group>"; };
+		8B03D5621E8BAA7500B2DDDC /* CWUUMineViewUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUMineViewUserCell.m; sourceTree = "<group>"; };
+		8B03D5631E8BAA7500B2DDDC /* CWUUPersonalInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPersonalInfoView.h; sourceTree = "<group>"; };
+		8B03D5641E8BAA7500B2DDDC /* CWUUPersonalInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoView.m; sourceTree = "<group>"; };
+		8B03D5651E8BAA7500B2DDDC /* CWUUPersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPersonalInfoViewController.h; sourceTree = "<group>"; };
+		8B03D5661E8BAA7500B2DDDC /* CWUUPersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoViewController.m; sourceTree = "<group>"; };
+		8B03D5671E8BAA7500B2DDDC /* CWUUPersonalInfoViewHeadImgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPersonalInfoViewHeadImgCell.h; sourceTree = "<group>"; };
+		8B03D5681E8BAA7500B2DDDC /* CWUUPersonalInfoViewHeadImgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoViewHeadImgCell.m; sourceTree = "<group>"; };
+		8B03D5691E8BAA7500B2DDDC /* CWUUPhoneCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPhoneCodeViewController.h; sourceTree = "<group>"; };
+		8B03D56A1E8BAA7500B2DDDC /* CWUUPhoneCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPhoneCodeViewController.m; sourceTree = "<group>"; };
+		8B03D56B1E8BAA7500B2DDDC /* CWUUPhonePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPhonePwdViewController.h; sourceTree = "<group>"; };
+		8B03D56C1E8BAA7500B2DDDC /* CWUUPhonePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPhonePwdViewController.m; sourceTree = "<group>"; };
+		8B03D56D1E8BAA7500B2DDDC /* CWUUSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSettingView.h; sourceTree = "<group>"; };
+		8B03D56E1E8BAA7500B2DDDC /* CWUUSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSettingView.m; sourceTree = "<group>"; };
+		8B03D56F1E8BAA7500B2DDDC /* CWUUSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSettingViewController.h; sourceTree = "<group>"; };
+		8B03D5701E8BAA7500B2DDDC /* CWUUSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSettingViewController.m; sourceTree = "<group>"; };
+		8B03D5711E8BAA7500B2DDDC /* CWUUSignUpCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSignUpCodeViewController.h; sourceTree = "<group>"; };
+		8B03D5721E8BAA7500B2DDDC /* CWUUSignUpCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSignUpCodeViewController.m; sourceTree = "<group>"; };
+		8B03D5731E8BAA7500B2DDDC /* CWUUSignUpPhonePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSignUpPhonePwdViewController.h; sourceTree = "<group>"; };
+		8B03D5741E8BAA7500B2DDDC /* CWUUSignUpPhonePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSignUpPhonePwdViewController.m; sourceTree = "<group>"; };
+		8B03D5751E8BAA7500B2DDDC /* CWUUTableViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUTableViewInfo.h; sourceTree = "<group>"; };
+		8B03D5761E8BAA7500B2DDDC /* CWUUTableViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUTableViewInfo.m; sourceTree = "<group>"; };
+		8B03D5771E8BAA7500B2DDDC /* CWUUTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUTextFieldViewController.h; sourceTree = "<group>"; };
+		8B03D5781E8BAA7500B2DDDC /* CWUUTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUTextFieldViewController.m; sourceTree = "<group>"; };
+		8B03D5791E8BAA7500B2DDDC /* CWUUUserDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUUserDetailModel.h; sourceTree = "<group>"; };
+		8B03D57A1E8BAA7500B2DDDC /* CWUUUserDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUUserDetailModel.m; sourceTree = "<group>"; };
 		8B03D6631E5FDC7F004DA716 /* ColorfulWoodUIUser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ColorfulWoodUIUser.framework; sourceTree = "<group>"; };
-		8B03D6661E5FE580004DA716 /* CWUUPhoneCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPhoneCodeViewController.h; sourceTree = "<group>"; };
-		8B03D6671E5FE580004DA716 /* CWUUPhoneCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPhoneCodeViewController.m; sourceTree = "<group>"; };
-		8B03D6691E601BE4004DA716 /* CWUUMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUMineViewController.h; sourceTree = "<group>"; };
-		8B03D66A1E601BE4004DA716 /* CWUUMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUMineViewController.m; sourceTree = "<group>"; };
-		8B03D66C1E601E5C004DA716 /* CWUUMineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUMineView.h; sourceTree = "<group>"; };
-		8B03D66D1E601E5C004DA716 /* CWUUMineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUMineView.m; sourceTree = "<group>"; };
 		8B2A0B371E3C17AB00603D55 /* TestUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A0B3B1E3C17AB00603D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B2A0B3D1E3C17AB00603D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B2A0B3E1E3C17AB00603D55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B2A0B401E3C17AB00603D55 /* CWUULoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWUULoginViewController.h; sourceTree = "<group>"; };
-		8B2A0B411E3C17AB00603D55 /* CWUULoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWUULoginViewController.m; sourceTree = "<group>"; };
 		8B2A0B441E3C17AB00603D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B2A0B471E3C17AB00603D55 /* TestUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestUI.xcdatamodel; sourceTree = "<group>"; };
 		8B2A0B491E3C17AB00603D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,40 +134,8 @@
 		8B2A0BCE1E43EDAD00603D55 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		8B378A611E5451170079F414 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8B3A65691E49C760003694A8 /* TestUI.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUI.pch; sourceTree = "<group>"; };
-		8B3B57C91E8A37EC00DEB6AF /* CWUUSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSettingView.h; sourceTree = "<group>"; };
-		8B3B57CA1E8A37EC00DEB6AF /* CWUUSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSettingView.m; sourceTree = "<group>"; };
-		8B3B57CC1E8A5D9100DEB6AF /* CWUUForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUForgetPasswordViewController.h; sourceTree = "<group>"; };
-		8B3B57CD1E8A5D9100DEB6AF /* CWUUForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUForgetPasswordViewController.m; sourceTree = "<group>"; };
-		8B3B57CF1E8A611500DEB6AF /* CWUUForgetCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUForgetCodeViewController.h; sourceTree = "<group>"; };
-		8B3B57D01E8A611500DEB6AF /* CWUUForgetCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUForgetCodeViewController.m; sourceTree = "<group>"; };
-		8B45233A1E85003B00032794 /* CWUUUserDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUUserDetailModel.h; sourceTree = "<group>"; };
-		8B45233B1E85003B00032794 /* CWUUUserDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUUserDetailModel.m; sourceTree = "<group>"; };
 		8B4688BD1E5D3D0500D397AE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8B4688BE1E5D3D0500D397AE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8B4688D41E5D953600D397AE /* CWUUSignUpCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSignUpCodeViewController.h; sourceTree = "<group>"; };
-		8B4688D51E5D953600D397AE /* CWUUSignUpCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSignUpCodeViewController.m; sourceTree = "<group>"; };
-		8B4688DA1E5D9EA600D397AE /* CWUUSignUpPhonePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSignUpPhonePwdViewController.h; sourceTree = "<group>"; };
-		8B4688DB1E5D9EA600D397AE /* CWUUSignUpPhonePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSignUpPhonePwdViewController.m; sourceTree = "<group>"; };
-		8B4976841E55B4F900628925 /* CWUUPhonePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPhonePwdViewController.h; sourceTree = "<group>"; };
-		8B4976851E55B4F900628925 /* CWUUPhonePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPhonePwdViewController.m; sourceTree = "<group>"; };
-		8B49847E1E7B8850009BC888 /* CWUULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWUULoginManager.h; path = ../CWUULoginManager.h; sourceTree = "<group>"; };
-		8B49847F1E7B8850009BC888 /* CWUULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWUULoginManager.m; path = ../CWUULoginManager.m; sourceTree = "<group>"; };
-		8B49FA5A1E56EAA700916D11 /* CWUUCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUCodeViewController.h; sourceTree = "<group>"; };
-		8B49FA5B1E56EAA700916D11 /* CWUUCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUCodeViewController.m; sourceTree = "<group>"; };
-		8B4F5F561E7930C5006FE03D /* CWUUMineViewUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUMineViewUserCell.h; sourceTree = "<group>"; };
-		8B4F5F571E7930C5006FE03D /* CWUUMineViewUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUMineViewUserCell.m; sourceTree = "<group>"; };
-		8B52D3731E7FC65900738965 /* CWUUPersonalInfoViewHeadImgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPersonalInfoViewHeadImgCell.h; sourceTree = "<group>"; };
-		8B52D3741E7FC65900738965 /* CWUUPersonalInfoViewHeadImgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoViewHeadImgCell.m; sourceTree = "<group>"; };
-		8B52D3761E7FCA3300738965 /* CWUUPersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPersonalInfoViewController.h; sourceTree = "<group>"; };
-		8B52D3771E7FCA3300738965 /* CWUUPersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoViewController.m; sourceTree = "<group>"; };
-		8B6262E21E80F743000D3868 /* CWUUPersonalInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPersonalInfoView.h; sourceTree = "<group>"; };
-		8B6262E31E80F743000D3868 /* CWUUPersonalInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoView.m; sourceTree = "<group>"; };
-		8B6262E51E80FB34000D3868 /* CWUUTableViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUTableViewInfo.h; sourceTree = "<group>"; };
-		8B6262E61E80FB34000D3868 /* CWUUTableViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUTableViewInfo.m; sourceTree = "<group>"; };
-		8BA989311E89144400190F80 /* CWUUTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUTextFieldViewController.h; sourceTree = "<group>"; };
-		8BA989321E89144400190F80 /* CWUUTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUTextFieldViewController.m; sourceTree = "<group>"; };
-		8BA989341E89243100190F80 /* CWUUSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSettingViewController.h; sourceTree = "<group>"; };
-		8BA989351E89243100190F80 /* CWUUSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSettingViewController.m; sourceTree = "<group>"; };
 		B485B75A70CF5ABE10948B63 /* Pods-TestUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestUI/Pods-TestUI.release.xcconfig"; sourceTree = "<group>"; };
 		E24D33A24C5445A7EAF11A12 /* Pods-TestUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestUI/Pods-TestUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +168,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B03D5521E8BAA7500B2DDDC /* MineUI */ = {
+			isa = PBXGroup;
+			children = (
+				8B03D5531E8BAA7500B2DDDC /* CWUUCodeViewController.h */,
+				8B03D5541E8BAA7500B2DDDC /* CWUUCodeViewController.m */,
+				8B03D5551E8BAA7500B2DDDC /* CWUUForgetCodeViewController.h */,
+				8B03D5561E8BAA7500B2DDDC /* CWUUForgetCodeViewController.m */,
+				8B03D5571E8BAA7500B2DDDC /* CWUUForgetPasswordViewController.h */,
+				8B03D5581E8BAA7500B2DDDC /* CWUUForgetPasswordViewController.m */,
+				8B03D5591E8BAA7500B2DDDC /* CWUULoginManager.h */,
+				8B03D55A1E8BAA7500B2DDDC /* CWUULoginManager.m */,
+				8B03D55B1E8BAA7500B2DDDC /* CWUULoginViewController.h */,
+				8B03D55C1E8BAA7500B2DDDC /* CWUULoginViewController.m */,
+				8B03D55D1E8BAA7500B2DDDC /* CWUUMineView.h */,
+				8B03D55E1E8BAA7500B2DDDC /* CWUUMineView.m */,
+				8B03D55F1E8BAA7500B2DDDC /* CWUUMineViewController.h */,
+				8B03D5601E8BAA7500B2DDDC /* CWUUMineViewController.m */,
+				8B03D5611E8BAA7500B2DDDC /* CWUUMineViewUserCell.h */,
+				8B03D5621E8BAA7500B2DDDC /* CWUUMineViewUserCell.m */,
+				8B03D5631E8BAA7500B2DDDC /* CWUUPersonalInfoView.h */,
+				8B03D5641E8BAA7500B2DDDC /* CWUUPersonalInfoView.m */,
+				8B03D5651E8BAA7500B2DDDC /* CWUUPersonalInfoViewController.h */,
+				8B03D5661E8BAA7500B2DDDC /* CWUUPersonalInfoViewController.m */,
+				8B03D5671E8BAA7500B2DDDC /* CWUUPersonalInfoViewHeadImgCell.h */,
+				8B03D5681E8BAA7500B2DDDC /* CWUUPersonalInfoViewHeadImgCell.m */,
+				8B03D5691E8BAA7500B2DDDC /* CWUUPhoneCodeViewController.h */,
+				8B03D56A1E8BAA7500B2DDDC /* CWUUPhoneCodeViewController.m */,
+				8B03D56B1E8BAA7500B2DDDC /* CWUUPhonePwdViewController.h */,
+				8B03D56C1E8BAA7500B2DDDC /* CWUUPhonePwdViewController.m */,
+				8B03D56D1E8BAA7500B2DDDC /* CWUUSettingView.h */,
+				8B03D56E1E8BAA7500B2DDDC /* CWUUSettingView.m */,
+				8B03D56F1E8BAA7500B2DDDC /* CWUUSettingViewController.h */,
+				8B03D5701E8BAA7500B2DDDC /* CWUUSettingViewController.m */,
+				8B03D5711E8BAA7500B2DDDC /* CWUUSignUpCodeViewController.h */,
+				8B03D5721E8BAA7500B2DDDC /* CWUUSignUpCodeViewController.m */,
+				8B03D5731E8BAA7500B2DDDC /* CWUUSignUpPhonePwdViewController.h */,
+				8B03D5741E8BAA7500B2DDDC /* CWUUSignUpPhonePwdViewController.m */,
+				8B03D5751E8BAA7500B2DDDC /* CWUUTableViewInfo.h */,
+				8B03D5761E8BAA7500B2DDDC /* CWUUTableViewInfo.m */,
+				8B03D5771E8BAA7500B2DDDC /* CWUUTextFieldViewController.h */,
+				8B03D5781E8BAA7500B2DDDC /* CWUUTextFieldViewController.m */,
+				8B03D5791E8BAA7500B2DDDC /* CWUUUserDetailModel.h */,
+				8B03D57A1E8BAA7500B2DDDC /* CWUUUserDetailModel.m */,
+			);
+			path = MineUI;
+			sourceTree = "<group>";
+		};
 		8B2A0B2E1E3C17AB00603D55 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +241,7 @@
 		8B2A0B391E3C17AB00603D55 /* TestUI */ = {
 			isa = PBXGroup;
 			children = (
+				8B03D5521E8BAA7500B2DDDC /* MineUI */,
 				8B2A0B3D1E3C17AB00603D55 /* AppDelegate.h */,
 				8B2A0B3E1E3C17AB00603D55 /* AppDelegate.m */,
 				8B2A0B431E3C17AB00603D55 /* Main.storyboard */,
@@ -204,46 +252,6 @@
 				8B4688BD1E5D3D0500D397AE /* ViewController.h */,
 				8B4688BE1E5D3D0500D397AE /* ViewController.m */,
 				8B2A0B3A1E3C17AB00603D55 /* Supporting Files */,
-				8B4976841E55B4F900628925 /* CWUUPhonePwdViewController.h */,
-				8B4976851E55B4F900628925 /* CWUUPhonePwdViewController.m */,
-				8B49FA5A1E56EAA700916D11 /* CWUUCodeViewController.h */,
-				8B49FA5B1E56EAA700916D11 /* CWUUCodeViewController.m */,
-				8B4688D41E5D953600D397AE /* CWUUSignUpCodeViewController.h */,
-				8B4688D51E5D953600D397AE /* CWUUSignUpCodeViewController.m */,
-				8B4688DA1E5D9EA600D397AE /* CWUUSignUpPhonePwdViewController.h */,
-				8B4688DB1E5D9EA600D397AE /* CWUUSignUpPhonePwdViewController.m */,
-				8B2A0B401E3C17AB00603D55 /* CWUULoginViewController.h */,
-				8B2A0B411E3C17AB00603D55 /* CWUULoginViewController.m */,
-				8B03D6661E5FE580004DA716 /* CWUUPhoneCodeViewController.h */,
-				8B03D6671E5FE580004DA716 /* CWUUPhoneCodeViewController.m */,
-				8B03D6691E601BE4004DA716 /* CWUUMineViewController.h */,
-				8B03D66A1E601BE4004DA716 /* CWUUMineViewController.m */,
-				8B03D66C1E601E5C004DA716 /* CWUUMineView.h */,
-				8B03D66D1E601E5C004DA716 /* CWUUMineView.m */,
-				8B4F5F561E7930C5006FE03D /* CWUUMineViewUserCell.h */,
-				8B4F5F571E7930C5006FE03D /* CWUUMineViewUserCell.m */,
-				8B49847E1E7B8850009BC888 /* CWUULoginManager.h */,
-				8B49847F1E7B8850009BC888 /* CWUULoginManager.m */,
-				8B52D3731E7FC65900738965 /* CWUUPersonalInfoViewHeadImgCell.h */,
-				8B52D3741E7FC65900738965 /* CWUUPersonalInfoViewHeadImgCell.m */,
-				8B52D3761E7FCA3300738965 /* CWUUPersonalInfoViewController.h */,
-				8B52D3771E7FCA3300738965 /* CWUUPersonalInfoViewController.m */,
-				8B6262E21E80F743000D3868 /* CWUUPersonalInfoView.h */,
-				8B6262E31E80F743000D3868 /* CWUUPersonalInfoView.m */,
-				8B6262E51E80FB34000D3868 /* CWUUTableViewInfo.h */,
-				8B6262E61E80FB34000D3868 /* CWUUTableViewInfo.m */,
-				8B45233A1E85003B00032794 /* CWUUUserDetailModel.h */,
-				8B45233B1E85003B00032794 /* CWUUUserDetailModel.m */,
-				8BA989311E89144400190F80 /* CWUUTextFieldViewController.h */,
-				8BA989321E89144400190F80 /* CWUUTextFieldViewController.m */,
-				8BA989341E89243100190F80 /* CWUUSettingViewController.h */,
-				8BA989351E89243100190F80 /* CWUUSettingViewController.m */,
-				8B3B57C91E8A37EC00DEB6AF /* CWUUSettingView.h */,
-				8B3B57CA1E8A37EC00DEB6AF /* CWUUSettingView.m */,
-				8B3B57CC1E8A5D9100DEB6AF /* CWUUForgetPasswordViewController.h */,
-				8B3B57CD1E8A5D9100DEB6AF /* CWUUForgetPasswordViewController.m */,
-				8B3B57CF1E8A611500DEB6AF /* CWUUForgetCodeViewController.h */,
-				8B3B57D01E8A611500DEB6AF /* CWUUForgetCodeViewController.m */,
 			);
 			path = TestUI;
 			sourceTree = "<group>";
@@ -487,30 +495,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BA989331E89144400190F80 /* CWUUTextFieldViewController.m in Sources */,
-				8B03D6681E5FE580004DA716 /* CWUUPhoneCodeViewController.m in Sources */,
-				8BA989361E89243100190F80 /* CWUUSettingViewController.m in Sources */,
-				8B45233C1E85003B00032794 /* CWUUUserDetailModel.m in Sources */,
-				8B3B57CB1E8A37EC00DEB6AF /* CWUUSettingView.m in Sources */,
+				8B03D5861E8BAA7500B2DDDC /* CWUUPhoneCodeViewController.m in Sources */,
+				8B03D5821E8BAA7500B2DDDC /* CWUUMineViewUserCell.m in Sources */,
 				8B4688BF1E5D3D0500D397AE /* ViewController.m in Sources */,
-				8B52D3751E7FC65900738965 /* CWUUPersonalInfoViewHeadImgCell.m in Sources */,
-				8B6262E41E80F743000D3868 /* CWUUPersonalInfoView.m in Sources */,
-				8B4976861E55B4F900628925 /* CWUUPhonePwdViewController.m in Sources */,
-				8B2A0B421E3C17AB00603D55 /* CWUULoginViewController.m in Sources */,
-				8B6262E71E80FB34000D3868 /* CWUUTableViewInfo.m in Sources */,
 				8B2A0B481E3C17AB00603D55 /* TestUI.xcdatamodeld in Sources */,
-				8B52D3781E7FCA3300738965 /* CWUUPersonalInfoViewController.m in Sources */,
-				8B03D66E1E601E5C004DA716 /* CWUUMineView.m in Sources */,
-				8B3B57D11E8A611500DEB6AF /* CWUUForgetCodeViewController.m in Sources */,
+				8B03D58D1E8BAA7500B2DDDC /* CWUUTextFieldViewController.m in Sources */,
+				8B03D57C1E8BAA7500B2DDDC /* CWUUForgetCodeViewController.m in Sources */,
 				8B2A0B3F1E3C17AB00603D55 /* AppDelegate.m in Sources */,
-				8B3B57CE1E8A5D9100DEB6AF /* CWUUForgetPasswordViewController.m in Sources */,
-				8B4688D61E5D953600D397AE /* CWUUSignUpCodeViewController.m in Sources */,
-				8B03D66B1E601BE4004DA716 /* CWUUMineViewController.m in Sources */,
-				8B4984801E7B8850009BC888 /* CWUULoginManager.m in Sources */,
-				8B49FA5C1E56EAA700916D11 /* CWUUCodeViewController.m in Sources */,
+				8B03D58E1E8BAA7500B2DDDC /* CWUUUserDetailModel.m in Sources */,
+				8B03D57F1E8BAA7500B2DDDC /* CWUULoginViewController.m in Sources */,
+				8B03D57D1E8BAA7500B2DDDC /* CWUUForgetPasswordViewController.m in Sources */,
+				8B03D57E1E8BAA7500B2DDDC /* CWUULoginManager.m in Sources */,
+				8B03D5881E8BAA7500B2DDDC /* CWUUSettingView.m in Sources */,
+				8B03D5841E8BAA7500B2DDDC /* CWUUPersonalInfoViewController.m in Sources */,
+				8B03D5891E8BAA7500B2DDDC /* CWUUSettingViewController.m in Sources */,
+				8B03D5811E8BAA7500B2DDDC /* CWUUMineViewController.m in Sources */,
+				8B03D5831E8BAA7500B2DDDC /* CWUUPersonalInfoView.m in Sources */,
+				8B03D5851E8BAA7500B2DDDC /* CWUUPersonalInfoViewHeadImgCell.m in Sources */,
 				8B2A0B3C1E3C17AB00603D55 /* main.m in Sources */,
-				8B4688DC1E5D9EA600D397AE /* CWUUSignUpPhonePwdViewController.m in Sources */,
-				8B4F5F581E7930C5006FE03D /* CWUUMineViewUserCell.m in Sources */,
+				8B03D5871E8BAA7500B2DDDC /* CWUUPhonePwdViewController.m in Sources */,
+				8B03D58C1E8BAA7500B2DDDC /* CWUUTableViewInfo.m in Sources */,
+				8B03D58A1E8BAA7500B2DDDC /* CWUUSignUpCodeViewController.m in Sources */,
+				8B03D58B1E8BAA7500B2DDDC /* CWUUSignUpPhonePwdViewController.m in Sources */,
+				8B03D57B1E8BAA7500B2DDDC /* CWUUCodeViewController.m in Sources */,
+				8B03D5801E8BAA7500B2DDDC /* CWUUMineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
