@@ -4,11 +4,5 @@ target 'ColorfulWoodUIUser' do
 
 pod 'Masonry'
 pod 'ColorfulWoodUIBase'
-pod 'JKCategories'
-pod 'ColorfulWoodUIBase'
-pod 'ColorfulWoodTools'
-pod 'IQKeyboardManager', '~> 3.3.4'
-pod 'JSONModel'
-pod 'SDWebImage'
 
 end

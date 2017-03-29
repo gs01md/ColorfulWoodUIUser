@@ -7,8 +7,8 @@
 //
 
 #import "ColorfulWoodUIPhonePwd.h"
-#import "ColorfulWoodUIBase.h"
-#import "Masonry.h"
+#import <ColorfulWoodUIBase/ColorfulWoodUIBase.h>
+#import <Masonry/Masonry.h>
 
 #define heightRate_phonePwd 3.7
 

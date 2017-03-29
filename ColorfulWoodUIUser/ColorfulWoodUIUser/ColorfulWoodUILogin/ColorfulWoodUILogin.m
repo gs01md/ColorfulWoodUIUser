@@ -7,8 +7,8 @@
 //
 
 #import "ColorfulWoodUILogin.h"
-#import "ColorfulWoodUIBase.h"
-#import "Masonry.h"
+#import <ColorfulWoodUIBase/ColorfulWoodUIBase.h>
+#import <Masonry/Masonry.h>
 #import "ColorfulWoodUIPhonePwd.h"
 
 #define heightRateLogin 4.5

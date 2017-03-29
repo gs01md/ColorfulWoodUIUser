@@ -8,7 +8,7 @@
 
 #import "ColorfulWoodUISMS.h"
 #import "CWUBDefine.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 #import "CWUBLeftImageFollowField.h"
 
 @interface ColorfulWoodUISMS ()
