@@ -33,6 +33,46 @@
 		8B378A5C1E542FFE0079F414 /* ColorfulWoodUISMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B378A5A1E542FFE0079F414 /* ColorfulWoodUISMS.m */; };
 		8B378A5F1E54300C0079F414 /* ColorfulWoodUIPhonePwd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B378A5D1E54300C0079F414 /* ColorfulWoodUIPhonePwd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B378A601E54300C0079F414 /* ColorfulWoodUIPhonePwd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B378A5E1E54300C0079F414 /* ColorfulWoodUIPhonePwd.m */; };
+		8B3B57F91E8A6E6E00DEB6AF /* CWUUCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57D31E8A6E6E00DEB6AF /* CWUUCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B57FA1E8A6E6E00DEB6AF /* CWUUCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57D41E8A6E6E00DEB6AF /* CWUUCodeViewController.m */; };
+		8B3B57FB1E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57D51E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B57FC1E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57D61E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.m */; };
+		8B3B57FD1E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57D71E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B57FE1E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57D81E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.m */; };
+		8B3B57FF1E8A6E6E00DEB6AF /* CWUULoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57D91E8A6E6E00DEB6AF /* CWUULoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58001E8A6E6E00DEB6AF /* CWUULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57DA1E8A6E6E00DEB6AF /* CWUULoginViewController.m */; };
+		8B3B58011E8A6E6E00DEB6AF /* CWUUMineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57DB1E8A6E6E00DEB6AF /* CWUUMineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58021E8A6E6E00DEB6AF /* CWUUMineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57DC1E8A6E6E00DEB6AF /* CWUUMineView.m */; };
+		8B3B58031E8A6E6E00DEB6AF /* CWUUMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57DD1E8A6E6E00DEB6AF /* CWUUMineViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58041E8A6E6E00DEB6AF /* CWUUMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57DE1E8A6E6E00DEB6AF /* CWUUMineViewController.m */; };
+		8B3B58051E8A6E6E00DEB6AF /* CWUUMineViewUserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57DF1E8A6E6E00DEB6AF /* CWUUMineViewUserCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58061E8A6E6E00DEB6AF /* CWUUMineViewUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57E01E8A6E6E00DEB6AF /* CWUUMineViewUserCell.m */; };
+		8B3B58071E8A6E6E00DEB6AF /* CWUUPersonalInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57E11E8A6E6E00DEB6AF /* CWUUPersonalInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58081E8A6E6E00DEB6AF /* CWUUPersonalInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57E21E8A6E6E00DEB6AF /* CWUUPersonalInfoView.m */; };
+		8B3B58091E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57E31E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B580A1E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57E41E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.m */; };
+		8B3B580B1E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57E51E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B580C1E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57E61E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.m */; };
+		8B3B580D1E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57E71E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B580E1E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57E81E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.m */; };
+		8B3B580F1E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57E91E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58101E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57EA1E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.m */; };
+		8B3B58111E8A6E6E00DEB6AF /* CWUUSettingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57EB1E8A6E6E00DEB6AF /* CWUUSettingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58121E8A6E6E00DEB6AF /* CWUUSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57EC1E8A6E6E00DEB6AF /* CWUUSettingView.m */; };
+		8B3B58131E8A6E6E00DEB6AF /* CWUUSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57ED1E8A6E6E00DEB6AF /* CWUUSettingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58141E8A6E6E00DEB6AF /* CWUUSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57EE1E8A6E6E00DEB6AF /* CWUUSettingViewController.m */; };
+		8B3B58151E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57EF1E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58161E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57F01E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.m */; };
+		8B3B58171E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57F11E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58181E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57F21E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.m */; };
+		8B3B58191E8A6E6E00DEB6AF /* CWUUTableViewInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57F31E8A6E6E00DEB6AF /* CWUUTableViewInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B581A1E8A6E6E00DEB6AF /* CWUUTableViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57F41E8A6E6E00DEB6AF /* CWUUTableViewInfo.m */; };
+		8B3B581B1E8A6E6E00DEB6AF /* CWUUTextFieldViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57F51E8A6E6E00DEB6AF /* CWUUTextFieldViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B581C1E8A6E6E00DEB6AF /* CWUUTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57F61E8A6E6E00DEB6AF /* CWUUTextFieldViewController.m */; };
+		8B3B581D1E8A6E6E00DEB6AF /* CWUUUserDetailModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B57F71E8A6E6E00DEB6AF /* CWUUUserDetailModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B581E1E8A6E6E00DEB6AF /* CWUUUserDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B57F81E8A6E6E00DEB6AF /* CWUUUserDetailModel.m */; };
+		8B3B58211E8A709000DEB6AF /* CWUULoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3B581F1E8A709000DEB6AF /* CWUULoginManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3B58221E8A709000DEB6AF /* CWUULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B58201E8A709000DEB6AF /* CWUULoginManager.m */; };
 		8B65E3E91E51418F00F6686D /* ColorfulWoodUILogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B65E3E71E51418F00F6686D /* ColorfulWoodUILogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B65E3EA1E51418F00F6686D /* ColorfulWoodUILogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B65E3E81E51418F00F6686D /* ColorfulWoodUILogin.m */; };
 /* End PBXBuildFile section */
@@ -52,6 +92,46 @@
 		8B378A5A1E542FFE0079F414 /* ColorfulWoodUISMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodUISMS.m; sourceTree = "<group>"; };
 		8B378A5D1E54300C0079F414 /* ColorfulWoodUIPhonePwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodUIPhonePwd.h; sourceTree = "<group>"; };
 		8B378A5E1E54300C0079F414 /* ColorfulWoodUIPhonePwd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodUIPhonePwd.m; sourceTree = "<group>"; };
+		8B3B57D31E8A6E6E00DEB6AF /* CWUUCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUCodeViewController.h; sourceTree = "<group>"; };
+		8B3B57D41E8A6E6E00DEB6AF /* CWUUCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUCodeViewController.m; sourceTree = "<group>"; };
+		8B3B57D51E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUForgetCodeViewController.h; sourceTree = "<group>"; };
+		8B3B57D61E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUForgetCodeViewController.m; sourceTree = "<group>"; };
+		8B3B57D71E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUForgetPasswordViewController.h; sourceTree = "<group>"; };
+		8B3B57D81E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUForgetPasswordViewController.m; sourceTree = "<group>"; };
+		8B3B57D91E8A6E6E00DEB6AF /* CWUULoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUULoginViewController.h; sourceTree = "<group>"; };
+		8B3B57DA1E8A6E6E00DEB6AF /* CWUULoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUULoginViewController.m; sourceTree = "<group>"; };
+		8B3B57DB1E8A6E6E00DEB6AF /* CWUUMineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUMineView.h; sourceTree = "<group>"; };
+		8B3B57DC1E8A6E6E00DEB6AF /* CWUUMineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUMineView.m; sourceTree = "<group>"; };
+		8B3B57DD1E8A6E6E00DEB6AF /* CWUUMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUMineViewController.h; sourceTree = "<group>"; };
+		8B3B57DE1E8A6E6E00DEB6AF /* CWUUMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUMineViewController.m; sourceTree = "<group>"; };
+		8B3B57DF1E8A6E6E00DEB6AF /* CWUUMineViewUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUMineViewUserCell.h; sourceTree = "<group>"; };
+		8B3B57E01E8A6E6E00DEB6AF /* CWUUMineViewUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUMineViewUserCell.m; sourceTree = "<group>"; };
+		8B3B57E11E8A6E6E00DEB6AF /* CWUUPersonalInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPersonalInfoView.h; sourceTree = "<group>"; };
+		8B3B57E21E8A6E6E00DEB6AF /* CWUUPersonalInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoView.m; sourceTree = "<group>"; };
+		8B3B57E31E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPersonalInfoViewController.h; sourceTree = "<group>"; };
+		8B3B57E41E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoViewController.m; sourceTree = "<group>"; };
+		8B3B57E51E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPersonalInfoViewHeadImgCell.h; sourceTree = "<group>"; };
+		8B3B57E61E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPersonalInfoViewHeadImgCell.m; sourceTree = "<group>"; };
+		8B3B57E71E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPhoneCodeViewController.h; sourceTree = "<group>"; };
+		8B3B57E81E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPhoneCodeViewController.m; sourceTree = "<group>"; };
+		8B3B57E91E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUPhonePwdViewController.h; sourceTree = "<group>"; };
+		8B3B57EA1E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUPhonePwdViewController.m; sourceTree = "<group>"; };
+		8B3B57EB1E8A6E6E00DEB6AF /* CWUUSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSettingView.h; sourceTree = "<group>"; };
+		8B3B57EC1E8A6E6E00DEB6AF /* CWUUSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSettingView.m; sourceTree = "<group>"; };
+		8B3B57ED1E8A6E6E00DEB6AF /* CWUUSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSettingViewController.h; sourceTree = "<group>"; };
+		8B3B57EE1E8A6E6E00DEB6AF /* CWUUSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSettingViewController.m; sourceTree = "<group>"; };
+		8B3B57EF1E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSignUpCodeViewController.h; sourceTree = "<group>"; };
+		8B3B57F01E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSignUpCodeViewController.m; sourceTree = "<group>"; };
+		8B3B57F11E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUSignUpPhonePwdViewController.h; sourceTree = "<group>"; };
+		8B3B57F21E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUSignUpPhonePwdViewController.m; sourceTree = "<group>"; };
+		8B3B57F31E8A6E6E00DEB6AF /* CWUUTableViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUTableViewInfo.h; sourceTree = "<group>"; };
+		8B3B57F41E8A6E6E00DEB6AF /* CWUUTableViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUTableViewInfo.m; sourceTree = "<group>"; };
+		8B3B57F51E8A6E6E00DEB6AF /* CWUUTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUTextFieldViewController.h; sourceTree = "<group>"; };
+		8B3B57F61E8A6E6E00DEB6AF /* CWUUTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUTextFieldViewController.m; sourceTree = "<group>"; };
+		8B3B57F71E8A6E6E00DEB6AF /* CWUUUserDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUUUserDetailModel.h; sourceTree = "<group>"; };
+		8B3B57F81E8A6E6E00DEB6AF /* CWUUUserDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUUUserDetailModel.m; sourceTree = "<group>"; };
+		8B3B581F1E8A709000DEB6AF /* CWUULoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWUULoginManager.h; sourceTree = "<group>"; };
+		8B3B58201E8A709000DEB6AF /* CWUULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUULoginManager.m; sourceTree = "<group>"; };
 		8B65E3E71E51418F00F6686D /* ColorfulWoodUILogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodUILogin.h; sourceTree = "<group>"; };
 		8B65E3E81E51418F00F6686D /* ColorfulWoodUILogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodUILogin.m; sourceTree = "<group>"; };
 		A877D090819A6DBCB3C7D8EC /* Pods-ColorfulWoodUIUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulWoodUIUser.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulWoodUIUser/Pods-ColorfulWoodUIUser.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +188,7 @@
 		8B2A0B911E3CA15800603D55 /* ColorfulWoodUIUser */ = {
 			isa = PBXGroup;
 			children = (
+				8B3B57D21E8A6E6E00DEB6AF /* ColorfulWoodUserViewController */,
 				8B3C8CBD1E5EF20100FA7868 /* ColorfulWoodUIPhoneSMS */,
 				8B378A581E542FE20079F414 /* ColorfulWoodUIPhonePwd */,
 				8B378A571E542E530079F414 /* ColorfulWoodUISMS */,
@@ -156,6 +237,53 @@
 			path = ColorfulWoodUIPhonePwd;
 			sourceTree = "<group>";
 		};
+		8B3B57D21E8A6E6E00DEB6AF /* ColorfulWoodUserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8B3B581F1E8A709000DEB6AF /* CWUULoginManager.h */,
+				8B3B58201E8A709000DEB6AF /* CWUULoginManager.m */,
+				8B3B57D31E8A6E6E00DEB6AF /* CWUUCodeViewController.h */,
+				8B3B57D41E8A6E6E00DEB6AF /* CWUUCodeViewController.m */,
+				8B3B57D51E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.h */,
+				8B3B57D61E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.m */,
+				8B3B57D71E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.h */,
+				8B3B57D81E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.m */,
+				8B3B57D91E8A6E6E00DEB6AF /* CWUULoginViewController.h */,
+				8B3B57DA1E8A6E6E00DEB6AF /* CWUULoginViewController.m */,
+				8B3B57DB1E8A6E6E00DEB6AF /* CWUUMineView.h */,
+				8B3B57DC1E8A6E6E00DEB6AF /* CWUUMineView.m */,
+				8B3B57DD1E8A6E6E00DEB6AF /* CWUUMineViewController.h */,
+				8B3B57DE1E8A6E6E00DEB6AF /* CWUUMineViewController.m */,
+				8B3B57DF1E8A6E6E00DEB6AF /* CWUUMineViewUserCell.h */,
+				8B3B57E01E8A6E6E00DEB6AF /* CWUUMineViewUserCell.m */,
+				8B3B57E11E8A6E6E00DEB6AF /* CWUUPersonalInfoView.h */,
+				8B3B57E21E8A6E6E00DEB6AF /* CWUUPersonalInfoView.m */,
+				8B3B57E31E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.h */,
+				8B3B57E41E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.m */,
+				8B3B57E51E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.h */,
+				8B3B57E61E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.m */,
+				8B3B57E71E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.h */,
+				8B3B57E81E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.m */,
+				8B3B57E91E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.h */,
+				8B3B57EA1E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.m */,
+				8B3B57EB1E8A6E6E00DEB6AF /* CWUUSettingView.h */,
+				8B3B57EC1E8A6E6E00DEB6AF /* CWUUSettingView.m */,
+				8B3B57ED1E8A6E6E00DEB6AF /* CWUUSettingViewController.h */,
+				8B3B57EE1E8A6E6E00DEB6AF /* CWUUSettingViewController.m */,
+				8B3B57EF1E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.h */,
+				8B3B57F01E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.m */,
+				8B3B57F11E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.h */,
+				8B3B57F21E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.m */,
+				8B3B57F31E8A6E6E00DEB6AF /* CWUUTableViewInfo.h */,
+				8B3B57F41E8A6E6E00DEB6AF /* CWUUTableViewInfo.m */,
+				8B3B57F51E8A6E6E00DEB6AF /* CWUUTextFieldViewController.h */,
+				8B3B57F61E8A6E6E00DEB6AF /* CWUUTextFieldViewController.m */,
+				8B3B57F71E8A6E6E00DEB6AF /* CWUUUserDetailModel.h */,
+				8B3B57F81E8A6E6E00DEB6AF /* CWUUUserDetailModel.m */,
+			);
+			path = ColorfulWoodUserViewController;
+			sourceTree = "<group>";
+		};
 		8B3C8CBD1E5EF20100FA7868 /* ColorfulWoodUIPhoneSMS */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,7 +310,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B378A551E5428D50079F414 /* ColorfulWoodUIForget.h in Headers */,
+				8B3B581D1E8A6E6E00DEB6AF /* CWUUUserDetailModel.h in Headers */,
+				8B3B58051E8A6E6E00DEB6AF /* CWUUMineViewUserCell.h in Headers */,
+				8B3B580B1E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.h in Headers */,
+				8B3B58091E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.h in Headers */,
+				8B3B57FF1E8A6E6E00DEB6AF /* CWUULoginViewController.h in Headers */,
+				8B3B58131E8A6E6E00DEB6AF /* CWUUSettingViewController.h in Headers */,
+				8B3B580F1E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.h in Headers */,
+				8B3B58151E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.h in Headers */,
+				8B3B58111E8A6E6E00DEB6AF /* CWUUSettingView.h in Headers */,
+				8B3B58011E8A6E6E00DEB6AF /* CWUUMineView.h in Headers */,
+				8B3B58191E8A6E6E00DEB6AF /* CWUUTableViewInfo.h in Headers */,
+				8B3B58171E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.h in Headers */,
+				8B3B580D1E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.h in Headers */,
+				8B3B57FB1E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.h in Headers */,
+				8B3B57FD1E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.h in Headers */,
+				8B3B57F91E8A6E6E00DEB6AF /* CWUUCodeViewController.h in Headers */,
+				8B3B58031E8A6E6E00DEB6AF /* CWUUMineViewController.h in Headers */,
+				8B3B58071E8A6E6E00DEB6AF /* CWUUPersonalInfoView.h in Headers */,
+				8B3B581B1E8A6E6E00DEB6AF /* CWUUTextFieldViewController.h in Headers */,
 				8B378A511E5428C70079F414 /* ColorfulWoodUIRegister.h in Headers */,
+				8B3B58211E8A709000DEB6AF /* CWUULoginManager.h in Headers */,
 				8B65E3E91E51418F00F6686D /* ColorfulWoodUILogin.h in Headers */,
 				8B378A5F1E54300C0079F414 /* ColorfulWoodUIPhonePwd.h in Headers */,
 				8B378A5B1E542FFE0079F414 /* ColorfulWoodUISMS.h in Headers */,
@@ -315,9 +463,29 @@
 			files = (
 				8B378A601E54300C0079F414 /* ColorfulWoodUIPhonePwd.m in Sources */,
 				8B65E3EA1E51418F00F6686D /* ColorfulWoodUILogin.m in Sources */,
+				8B3B580E1E8A6E6E00DEB6AF /* CWUUPhoneCodeViewController.m in Sources */,
+				8B3B58221E8A709000DEB6AF /* CWUULoginManager.m in Sources */,
+				8B3B58141E8A6E6E00DEB6AF /* CWUUSettingViewController.m in Sources */,
 				8B378A561E5428D50079F414 /* ColorfulWoodUIForget.m in Sources */,
+				8B3B581E1E8A6E6E00DEB6AF /* CWUUUserDetailModel.m in Sources */,
+				8B3B58041E8A6E6E00DEB6AF /* CWUUMineViewController.m in Sources */,
+				8B3B58021E8A6E6E00DEB6AF /* CWUUMineView.m in Sources */,
+				8B3B581A1E8A6E6E00DEB6AF /* CWUUTableViewInfo.m in Sources */,
 				8B378A5C1E542FFE0079F414 /* ColorfulWoodUISMS.m in Sources */,
+				8B3B58001E8A6E6E00DEB6AF /* CWUULoginViewController.m in Sources */,
+				8B3B580A1E8A6E6E00DEB6AF /* CWUUPersonalInfoViewController.m in Sources */,
+				8B3B58101E8A6E6E00DEB6AF /* CWUUPhonePwdViewController.m in Sources */,
+				8B3B581C1E8A6E6E00DEB6AF /* CWUUTextFieldViewController.m in Sources */,
+				8B3B58181E8A6E6E00DEB6AF /* CWUUSignUpPhonePwdViewController.m in Sources */,
 				8B378A521E5428C70079F414 /* ColorfulWoodUIRegister.m in Sources */,
+				8B3B57FA1E8A6E6E00DEB6AF /* CWUUCodeViewController.m in Sources */,
+				8B3B57FE1E8A6E6E00DEB6AF /* CWUUForgetPasswordViewController.m in Sources */,
+				8B3B58081E8A6E6E00DEB6AF /* CWUUPersonalInfoView.m in Sources */,
+				8B3B58161E8A6E6E00DEB6AF /* CWUUSignUpCodeViewController.m in Sources */,
+				8B3B58061E8A6E6E00DEB6AF /* CWUUMineViewUserCell.m in Sources */,
+				8B3B58121E8A6E6E00DEB6AF /* CWUUSettingView.m in Sources */,
+				8B3B57FC1E8A6E6E00DEB6AF /* CWUUForgetCodeViewController.m in Sources */,
+				8B3B580C1E8A6E6E00DEB6AF /* CWUUPersonalInfoViewHeadImgCell.m in Sources */,
 				8B35506D1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

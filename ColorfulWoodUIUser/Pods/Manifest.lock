@@ -1,16 +1,39 @@
 PODS:
-  - ColorfulWoodUIBase (1.0.9):
+  - BmobSDK (2.1.7)
+  - ColorfulWoodTools (1.0.8):
+    - MBProgressHUD (~> 0.9.1)
+  - ColorfulWoodUIBase (1.0.10):
     - Masonry
+  - IQKeyboardManager (3.3.7)
+  - JKCategories (1.5)
+  - JSONModel (1.7.0)
   - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
+  - BmobSDK
+  - ColorfulWoodTools
   - ColorfulWoodUIBase
+  - IQKeyboardManager (~> 3.3.4)
+  - JKCategories
+  - JSONModel
   - Masonry
+  - SDWebImage
 
 SPEC CHECKSUMS:
-  ColorfulWoodUIBase: e0e9baadcb4a172a51fe60a5af9e6600d7362419
+  BmobSDK: 23cbfbde2a7cfaeb0c8a946953a266fe5211e7f6
+  ColorfulWoodTools: f7cd4945dc491228af0013765c62e70bc5629c91
+  ColorfulWoodUIBase: 2fb58ea8421c0aabaef55d3ff6bad2afca1f650e
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JKCategories: 863f4c7ed2d521ee6bf72ceea97948da23bb5af4
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 0479f0e5a86232bee1d44710e467ecfdb4c13210
+PODFILE CHECKSUM: d68d2a6f82ab2c8a42f7989cc65d49f19661cce6
 
 COCOAPODS: 1.1.1

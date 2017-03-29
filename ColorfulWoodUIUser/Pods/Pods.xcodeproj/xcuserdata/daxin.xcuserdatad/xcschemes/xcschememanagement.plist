@@ -4,7 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ColorfulWoodTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ColorfulWoodUIBase.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JKCategories.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSONModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,15 +44,50 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>11F29F4E9EF6F0CDFC4030A29113AA0F</key>
+		<key>0659B71386995AC7EE2A305F0A360EB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B4341822F16F71193FEB31FA220B31D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>402DEAC1D7201AEE01F60E176DD0FE62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55E3CFFEDC2629EE0C17B343EC00595B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>65CF783506205AFABEA9643B9BAEA3AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>B6CC173E54138F651772EA09EC095B4C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BFC104EA05596275561DC3F086C247AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2B1A67F83719F81246A5AF8A75903AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

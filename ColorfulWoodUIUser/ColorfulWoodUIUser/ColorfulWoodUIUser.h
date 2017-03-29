@@ -19,3 +19,30 @@ FOUNDATION_EXPORT const unsigned char ColorfulWoodUIUserVersionString[];
 #import "ColorfulWoodUISMS.h"
 #import "ColorfulWoodUIPhoneSMS.h"
 #import "ColorfulWoodUIForget.h"
+#import "CWUUCodeViewController.h"
+#import "CWUUForgetCodeViewController.h"
+#import "CWUUForgetPasswordViewController.h"
+#import "CWUULoginViewController.h"
+#import "CWUUMineView.h"
+#import "CWUUMineViewController.h"
+#import "CWUUMineViewUserCell.h"
+#import "CWUUPersonalInfoView.h"
+#import "CWUUPersonalInfoViewController.h"
+#import "CWUUPersonalInfoViewHeadImgCell.h"
+#import "CWUUPhoneCodeViewController.h"
+#import "CWUUPhonePwdViewController.h"
+#import "CWUUSettingView.h"
+#import "CWUUSettingViewController.h"
+#import "CWUUSignUpCodeViewController.h"
+#import "CWUUSignUpPhonePwdViewController.h"
+#import "CWUUTableViewInfo.h"
+#import "CWUUTextFieldViewController.h"
+#import "CWUUUserDetailModel.h"
+#import "CWUULoginManager.h"
+
+
+
+
+
+
+
