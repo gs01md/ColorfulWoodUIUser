@@ -1,5 +1,4 @@
 PODS:
-  - BmobSDK (2.1.7)
   - ColorfulWoodTools (1.0.8):
     - MBProgressHUD (~> 0.9.1)
   - ColorfulWoodUIBase (1.0.10):
@@ -14,7 +13,6 @@ PODS:
   - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
-  - BmobSDK
   - ColorfulWoodTools
   - ColorfulWoodUIBase
   - IQKeyboardManager (~> 3.3.4)
@@ -24,7 +22,6 @@ DEPENDENCIES:
   - SDWebImage
 
 SPEC CHECKSUMS:
-  BmobSDK: 23cbfbde2a7cfaeb0c8a946953a266fe5211e7f6
   ColorfulWoodTools: f7cd4945dc491228af0013765c62e70bc5629c91
   ColorfulWoodUIBase: 2fb58ea8421c0aabaef55d3ff6bad2afca1f650e
   IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
@@ -34,6 +31,6 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: d68d2a6f82ab2c8a42f7989cc65d49f19661cce6
+PODFILE CHECKSUM: 584a9f06a10471855c1bcce04d2799c755a8ca20
 
 COCOAPODS: 1.1.1

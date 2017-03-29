@@ -13,7 +13,7 @@
 #import "CWUUPhonePwdViewController.h"
 #import <UIViewController+JKBackButtonItemTitle.h>
 #import <JKCategories/NSString+JKTrims.h>
-#import <ColorfulWoodTools.h>
+#import <ColorfulWoodTools/ColorfulWoodTools.h>
 #import "CWUUSignUpPhonePwdViewController.h"
 #import "CWUUPhoneCodeViewController.h"
 #import "CWUULoginManager.h"

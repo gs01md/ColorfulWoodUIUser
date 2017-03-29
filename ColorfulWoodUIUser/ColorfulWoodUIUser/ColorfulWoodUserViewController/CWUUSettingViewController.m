@@ -8,7 +8,7 @@
 
 #import "CWUUSettingViewController.h"
 #import <ColorfulWoodUIBase/ColorfulWoodUIBase.h>
-#import <ColorfulWoodTools.h>
+#import <ColorfulWoodTools/ColorfulWoodTools.h>
 #import <BmobSDK/Bmob.h>
 #import "CWUULoginManager.h"
 #import "CWUUForgetPasswordViewController.h"

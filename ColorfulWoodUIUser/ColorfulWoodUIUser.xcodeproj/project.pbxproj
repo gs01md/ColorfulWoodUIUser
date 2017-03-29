@@ -21,7 +21,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		6EAAA8C00D807852E2467E8D /* libPods-ColorfulWoodUIUser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639425EDB0885A7403D6F412 /* libPods-ColorfulWoodUIUser.a */; };
 		8B2A0B941E3CA15800603D55 /* ColorfulWoodUIUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2A0B921E3CA15800603D55 /* ColorfulWoodUIUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B35506C1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B35506A1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B35506D1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B35506B1E5FCDBE00E35088 /* ColorfulWoodUIPhoneSMS.m */; };
@@ -75,10 +74,17 @@
 		8B3B58221E8A709000DEB6AF /* CWUULoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B58201E8A709000DEB6AF /* CWUULoginManager.m */; };
 		8B65E3E91E51418F00F6686D /* ColorfulWoodUILogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B65E3E71E51418F00F6686D /* ColorfulWoodUILogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B65E3EA1E51418F00F6686D /* ColorfulWoodUILogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B65E3E81E51418F00F6686D /* ColorfulWoodUILogin.m */; };
+		8BE63D1D1E8B89D000F4AD5F /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE63D1B1E8B89D000F4AD5F /* BmobSDK.framework */; };
+		8BE63D1E1E8B89D000F4AD5F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE63D1C1E8B89D000F4AD5F /* libWeChatSDK.a */; };
+		8BE63D201E8B8A8100F4AD5F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE63D1F1E8B8A8100F4AD5F /* libsqlite3.tbd */; };
+		8BE63D221E8B8AFA00F4AD5F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE63D211E8B8AFA00F4AD5F /* CoreTelephony.framework */; };
+		8BE63D241E8B8B4A00F4AD5F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE63D231E8B8B4A00F4AD5F /* libc++.tbd */; };
+		8BE63D261E8B8B8400F4AD5F /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE63D251E8B8B8400F4AD5F /* libicucore.tbd */; };
+		F414B71212C9FDF7755B3CBC /* libPods-ColorfulWoodUIUser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AD20B4107782C85873E150 /* libPods-ColorfulWoodUIUser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		639425EDB0885A7403D6F412 /* libPods-ColorfulWoodUIUser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorfulWoodUIUser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AD20B4107782C85873E150 /* libPods-ColorfulWoodUIUser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorfulWoodUIUser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A0B8F1E3CA15800603D55 /* ColorfulWoodUIUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorfulWoodUIUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A0B921E3CA15800603D55 /* ColorfulWoodUIUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodUIUser.h; sourceTree = "<group>"; };
 		8B2A0B931E3CA15800603D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,6 +140,12 @@
 		8B3B58201E8A709000DEB6AF /* CWUULoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWUULoginManager.m; sourceTree = "<group>"; };
 		8B65E3E71E51418F00F6686D /* ColorfulWoodUILogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodUILogin.h; sourceTree = "<group>"; };
 		8B65E3E81E51418F00F6686D /* ColorfulWoodUILogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodUILogin.m; sourceTree = "<group>"; };
+		8BE63D1B1E8B89D000F4AD5F /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		8BE63D1C1E8B89D000F4AD5F /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		8BE63D1F1E8B8A8100F4AD5F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8BE63D211E8B8AFA00F4AD5F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8BE63D231E8B8B4A00F4AD5F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8BE63D251E8B8B8400F4AD5F /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		A877D090819A6DBCB3C7D8EC /* Pods-ColorfulWoodUIUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulWoodUIUser.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulWoodUIUser/Pods-ColorfulWoodUIUser.release.xcconfig"; sourceTree = "<group>"; };
 		C8B54FCA6B56D318A2D618CA /* Pods-ColorfulWoodUIUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulWoodUIUser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulWoodUIUser/Pods-ColorfulWoodUIUser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,7 +155,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAAA8C00D807852E2467E8D /* libPods-ColorfulWoodUIUser.a in Frameworks */,
+				8BE63D261E8B8B8400F4AD5F /* libicucore.tbd in Frameworks */,
+				8BE63D241E8B8B4A00F4AD5F /* libc++.tbd in Frameworks */,
+				8BE63D221E8B8AFA00F4AD5F /* CoreTelephony.framework in Frameworks */,
+				8BE63D201E8B8A8100F4AD5F /* libsqlite3.tbd in Frameworks */,
+				F414B71212C9FDF7755B3CBC /* libPods-ColorfulWoodUIUser.a in Frameworks */,
+				8BE63D1D1E8B89D000F4AD5F /* BmobSDK.framework in Frameworks */,
+				8BE63D1E1E8B89D000F4AD5F /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +180,11 @@
 		2C2E55F0D66A51E336CDF9C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				639425EDB0885A7403D6F412 /* libPods-ColorfulWoodUIUser.a */,
+				8BE63D251E8B8B8400F4AD5F /* libicucore.tbd */,
+				8BE63D231E8B8B4A00F4AD5F /* libc++.tbd */,
+				8BE63D211E8B8AFA00F4AD5F /* CoreTelephony.framework */,
+				8BE63D1F1E8B8A8100F4AD5F /* libsqlite3.tbd */,
+				15AD20B4107782C85873E150 /* libPods-ColorfulWoodUIUser.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,6 +210,7 @@
 		8B2A0B911E3CA15800603D55 /* ColorfulWoodUIUser */ = {
 			isa = PBXGroup;
 			children = (
+				8BE63D161E8B782000F4AD5F /* MyFrameworks */,
 				8B3B57D21E8A6E6E00DEB6AF /* ColorfulWoodUserViewController */,
 				8B3C8CBD1E5EF20100FA7868 /* ColorfulWoodUIPhoneSMS */,
 				8B378A581E542FE20079F414 /* ColorfulWoodUIPhonePwd */,
@@ -300,6 +323,15 @@
 				8B65E3E81E51418F00F6686D /* ColorfulWoodUILogin.m */,
 			);
 			path = ColorfulWoodUILogin;
+			sourceTree = "<group>";
+		};
+		8BE63D161E8B782000F4AD5F /* MyFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BE63D1B1E8B89D000F4AD5F /* BmobSDK.framework */,
+				8BE63D1C1E8B89D000F4AD5F /* libWeChatSDK.a */,
+			);
+			path = MyFrameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -604,10 +636,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Products",
+					"$(PROJECT_DIR)/ColorfulWoodUIUser/MyFrameworks",
 				);
 				INFOPLIST_FILE = ColorfulWoodUIUser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColorfulWoodUIUser/MyFrameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wood.ColorfulWoodUIUser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -629,10 +666,15 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Products",
+					"$(PROJECT_DIR)/ColorfulWoodUIUser/MyFrameworks",
 				);
 				INFOPLIST_FILE = ColorfulWoodUIUser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ColorfulWoodUIUser/MyFrameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wood.ColorfulWoodUIUser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

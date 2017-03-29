@@ -8,7 +8,7 @@
 
 #import "CWUUForgetCodeViewController.h"
 #import <BmobSDK/Bmob.h>
-#import <ColorfulWoodTools.h>
+#import <ColorfulWoodTools/ColorfulWoodTools.h>
 #import <JKCategories.h>
 
 @interface CWUUForgetCodeViewController ()

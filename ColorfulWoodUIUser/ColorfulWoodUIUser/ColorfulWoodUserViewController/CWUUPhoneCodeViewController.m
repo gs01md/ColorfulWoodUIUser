@@ -7,8 +7,8 @@
 //
 
 #import "CWUUPhoneCodeViewController.h"
-#import <ColorfulWoodTools.h>
-#import <JKCategories.h>
+#import <ColorfulWoodTools/ColorfulWoodTools.h>
+#import <JKCategories/JKCategories.h>
 #import <BmobSDK/Bmob.h>
 
 @interface CWUUPhoneCodeViewController ()

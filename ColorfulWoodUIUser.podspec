@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ColorfulWoodUIUser"
-  s.version      = "1.0.13"
+  s.version      = "1.0.14"
   s.summary      = "User Interface Design."
 
   s.homepage     = "https://github.com/gs01md"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.frameworks   = 'UIKit'
+  s.frameworks   = 'UIKit','CoreTelephony'
 
   s.dependency    'Masonry'
   s.dependency    'BmobSDK'
@@ -28,6 +28,11 @@ Pod::Spec.new do |s|
   s.dependency    'IQKeyboardManager'
   s.dependency    'JSONModel'
   s.dependency    'SDWebImage'
+
+  spec.vendored_libraries = 'libWeChatSDK.a','libsqlite3','libc++','libicucore'
+  spec.vendored_frameworks = 'BmobSDK.framework'
+
+
 
 
 

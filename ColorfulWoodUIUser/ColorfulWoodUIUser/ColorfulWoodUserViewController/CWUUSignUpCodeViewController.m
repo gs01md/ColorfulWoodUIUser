@@ -8,7 +8,7 @@
 
 #import "CWUUSignUpCodeViewController.h"
 #import <BmobSDK/Bmob.h>
-#import <ColorfulWoodTools.h>
+#import <ColorfulWoodTools/ColorfulWoodTools.h>
 #import <JKCategories.h>
 
 @interface CWUUSignUpCodeViewController ()

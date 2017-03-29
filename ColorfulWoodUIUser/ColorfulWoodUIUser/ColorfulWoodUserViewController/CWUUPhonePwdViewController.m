@@ -10,8 +10,7 @@
 #import <ColorfulWoodUIUser/ColorfulWoodUIUser.h>
 #import <ColorfulWoodUIBase/ColorfulWoodUIBase.h>
 #import "CWUUCodeViewController.h"
-#import <ColorfulWoodAlert.h>
-#import <ColorfulWoodTools.h>
+#import <ColorfulWoodTools/ColorfulWoodTools.h>
 
 @interface CWUUPhonePwdViewController ()<
 CWUUCodeViewControllerDelegate

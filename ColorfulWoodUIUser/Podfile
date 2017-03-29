@@ -1,12 +1,9 @@
 platform :ios, '8.0'
 
-use_frameworks!
-
 target 'ColorfulWoodUIUser' do
 
 pod 'Masonry'
 pod 'ColorfulWoodUIBase'
-pod 'BmobSDK'
 pod 'JKCategories'
 pod 'ColorfulWoodUIBase'
 pod 'ColorfulWoodTools'
